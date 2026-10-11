@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Radar · VaqCorp</title>
+<meta name="description" content="Radar de VaqCorp: inventos geniales de otros inventores locos." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ccircle cx=%228%22 cy=%228%22 r=%227%22 fill=%22%23c6ff3d%22 stroke=%22%23111418%22 stroke-width=%221.5%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+<style>
+  .radar-list{display:flex;flex-direction:column;gap:18px}
+  .radar-item{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:0;padding:0;overflow:hidden}
+  .radar-item .thumb{margin:0;height:100%;min-height:220px;border-radius:0;border-bottom:0;border-right:1px solid var(--line)}
+  .radar-item{position:relative}
+  .radar-item:hover{border-color:var(--acc-ink);box-shadow:0 14px 30px -18px rgba(0,0,0,.25);transform:translateY(-3px)}
+  .radar-item:hover .thumb img{transform:scale(1.04)}
+  .radar-visit{text-decoration:none}
+  .radar-visit::after{content:"";position:absolute;inset:0}
+  .radar-actions{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.8rem}
+  .radar-try{position:relative;z-index:1;font-size:.8rem;font-weight:600;text-decoration:none;padding:.5rem .95rem;border:2px solid var(--text);border-radius:999px;background:var(--acc);box-shadow:3px 3px 0 var(--text);transition:transform .15s,box-shadow .15s}
+  .radar-try:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--text)}
+  .radar-item .thumb{position:relative}
+  .stamps{position:absolute;left:16px;bottom:16px;display:flex;flex-wrap:wrap;gap:10px}
+  .stamps > span{font-weight:600;font-size:.85rem;letter-spacing:.08em;color:var(--warn);background:rgba(255,255,255,.92);border:2.5px solid var(--warn);border-radius:6px;padding:.2rem .6rem;transform:rotate(-6deg);box-shadow:0 0 0 2px rgba(255,255,255,.92)}
+  .stamps > span:nth-child(even){transform:rotate(4deg)}
+  .radar-body{padding:24px 28px;display:flex;flex-direction:column;gap:.8rem}
+  .radar-body h3{font-size:1.7rem}
+  .radar-body p{font-size:1.02rem;max-width:62ch}
+  .radar-item[hidden]{display:none}
+  .radar-filters{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px}
+  .radar-filters input,.radar-filters select{font-size:.85rem;padding:.6rem .85rem;border:1.5px solid var(--line);border-radius:10px;background:var(--bg-2);color:var(--text)}
+  .radar-filters input{flex:1 1 260px}
+  .radar-filters input:focus,.radar-filters select:focus{outline:none;border-color:var(--text)}
+  .radar-labels{display:flex;flex-wrap:wrap;gap:8px;flex-basis:100%}
+  .chip{font-size:.72rem;letter-spacing:.04em;padding:.3rem .65rem;border:1px solid var(--line);border-radius:999px;background:var(--bg-2);color:var(--acc-2);cursor:pointer}
+  .chip.is-stamp{color:var(--warn);border-color:var(--warn)}
+  .chip:hover{border-color:var(--text)}
+  .chip[aria-pressed="true"]{background:var(--text);border-color:var(--text);color:var(--acc)}
+  @media (max-width:700px){.radar-item{grid-template-columns:1fr}.radar-item .thumb{height:200px;min-height:0;border-right:0;border-bottom:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="./"><i></i>VAQCORP</a>
+  <div class="links">
+    <a href="inventos.html"><span lang="es">Mis inventos</span><span lang="en">My inventions</span></a>
+    <a href="radar.html" aria-current="page">Radar</a>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button data-set-lang="es">ES</button><button data-set-lang="en">EN</button>
+    </div>
+  </div>
+</div></nav>
+
+<header class="page-head"><div class="wrap">
+  <p class="tag mono"><span lang="es">inventos geniales</span><span lang="en">cool inventions</span></p>
+  <h1>Radar</h1>
+  <p class="lede"><span lang="es">Inventos geniales de otros inventores locos, encontrados por internet.</span><span lang="en">Cool inventions by other mad inventors, found around the internet.</span></p>
+</div></header>
+
+<main><div class="wrap" style="padding-bottom:80px">
+  <div class="radar-filters" id="radar-filters" hidden>
+    <input type="search" id="radar-search" class="mono" aria-label="Buscar / Search">
+    <select id="radar-month" class="mono" aria-label="Fecha / Date"></select>
+    <div class="radar-labels" id="radar-labels"></div>
+  </div>
+  <div class="radar-list" id="radar-posts"></div>
+  <p class="empty mono" id="radar-empty" hidden><span lang="es">// todavía nada en el radar</span><span lang="en">// nothing on the radar yet</span></p>
+  <p class="empty mono" id="radar-no-match" hidden><span lang="es">// nada coincide con la búsqueda</span><span lang="en">// nothing matches your search</span></p>
+</div></main>
+
+<footer><div class="wrap mono"><span>© VaqCorp · Sevilla</span><span>// built by a mad inventor</span></div></footer>
+<script src="site.js"></script>
+<script src="radar-filters.js"></script>
+<script src="radar.js"></script>
+</body>
+</html>

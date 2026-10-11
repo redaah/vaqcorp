@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-10-11",
+    "url": "https://onorca.dev/",
+    "title": "Orca",
+    "note": {
+      "es": "Un IDE pensado para agentes, no para personas: lanzas una flota de Claude Code, Codex o el agente que quieras, cada uno en su propio worktree, y los diriges desde un solo sitio. Terminales, diffs, navegador, automatizaciones... no le falta de nada. Un enfoque brillante de cómo se va a programar.",
+      "en": "An IDE built for agents, not people: you launch a fleet of Claude Code, Codex or any agent you like, each in its own worktree, and run them all from one place. Terminals, diffs, a browser, automations... it has everything. A brilliant take on how coding is going to work."
+    },
+    "image": "img/radar/orca.png",
+    "stamps": [{ "es": "BRILLANTE", "en": "BRILLIANT" }, { "es": "COMPLETÍSIMO", "en": "LOADED" }],
+    "tags": [{ "es": "IA", "en": "AI" }, "IDE", "OPEN SOURCE"]
+  },
+  {
+    "date": "2026-10-11",
+    "url": "https://bigwords.page/",
+    "title": "Big Words",
+    "note": {
+      "es": "Un cartel a pantalla completa que vive entero en el enlace: el mensaje, los colores y hasta una cuenta atrás van en la URL. Sin cuenta, sin servidor, sin app. Una idea tan simple que da rabia no haberla tenido.",
+      "en": "A full-screen sign that lives entirely in the link: the message, the colors and even a countdown go in the URL. No account, no server, no app. So simple it hurts not to have thought of it first."
+    },
+    "image": "img/radar/bigwords.png",
+    "stamps": ["ORIGINAL"],
+    "tags": ["WEB", { "es": "HERRAMIENTA", "en": "TOOL" }],
+    "try": {
+      "label": { "es": "Ver el lema de VaqCorp en grande →", "en": "See the VaqCorp motto, big →" },
+      "url": "https://bigwords.page/#Si%20no%20existe%2C%0Alo%20invento.&bg=c6ff3d&fg=111418&font=4"
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "url": "https://www.funwithcomputervision.com/weball/",
+    "title": "Weball",
+    "note": {
+      "es": "Un juego que se sale de la pantalla: una bola que rueda por cualquier web y se la va tragando. Me encanta cómo mezcla el juego con la realidad y lleva el efecto web a otro nivel.",
+      "en": "A game that breaks out of the screen: a ball that rolls over any website and swallows it up. I love how it mixes the game with reality and takes the web effect to a new level."
+    },
+    "image": "img/radar/weball.png",
+    "stamps": [{ "es": "DIVERTIDO", "en": "FUN" }, "ORIGINAL"],
+    "tags": [{ "es": "JUEGO", "en": "GAME" }, "WEB"],
+    "try": {
+      "label": { "es": "Rueda VaqCorp con Weball →", "en": "Roll up VaqCorp with Weball →" },
+      "url": "https://www.funwithcomputervision.com/weball/?url={vaqcorp}"
+    }
+  }
+]
