@@ -8,7 +8,7 @@ Website for [vaqcorp.com](https://vaqcorp.com): Rafael Vaquero's inventions and 
 | `inventos.html` | My inventions + supported initiatives |
 | `radar.html` | Cool inventions by other mad inventors (from `posts.json`) |
 
-Shared: `site.css` (all pages), `home.css` (home only), `site.js` (language toggle + helpers). `radar.js` renders Radar; `radar-filters.js` adds Radar's search, tag/stamp chips and month filter. `img/` holds images.
+Shared: `site.css` (all pages), `home.css` (home only), `site.js` (language toggle + helpers). `radar.js` renders Radar; `radar-filters.js` adds Radar's search, tag/stamp chips and month filter. `share.js` adds a share button (copy link + social networks, native share sheet on phones) to every card with an id. `img/` holds images.
 
 ## Add a Radar post
 
@@ -25,6 +25,7 @@ Add an entry to `posts.json` and push. Newest date shows first:
 
 Optional `"try": { "label": {es, en}, "url": "https://tool/?url={vaqcorp}" }` adds a button that runs the tool on our site (`{vaqcorp}` becomes our public URL, set in `radar.js`).
 `stamps` are the VaqCorp seal (shown big on the thumbnail); `tags` classify (small, under the text).
+Each post gets a link `radar.html#<slug of title>` (e.g. `#big-words`); set `"id"` to override it.
 `title`, `note`, each stamp and each tag can be a plain string or `{es, en}`. `image`, `stamps` and `tags` are optional.
 
 ## Deploy

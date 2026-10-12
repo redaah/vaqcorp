@@ -12,8 +12,15 @@ function appendBilingualText(parent, value) {
   }
 }
 
+// Each card's id is its permalink (radar.html#orca): the post's "id", else its title as a slug.
+function slugifyRadarPost(post) {
+  const title = typeof post.title === 'string' ? post.title : post.title.en ?? post.title.es;
+  return post.id ?? title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 function renderRadarCard(post) {
   const card = createElement('article', 'exp radar-item');
+  card.id = slugifyRadarPost(post);
   const thumb = createElement('div', 'thumb');
   if (post.image) {
     const img = createElement('img', 'cover');
@@ -28,7 +35,10 @@ function renderRadarCard(post) {
   const host = new URL(post.url).hostname.replace(/^www\./, '');
   const body = createElement('div', 'radar-body');
   const top = createElement('div', 'exp-top mono');
-  top.append(formatDateBilingual(post.date), createElement('span', null, host));
+  const permalink = createElement('a', 'radar-permalink');
+  permalink.href = '#' + card.id;
+  permalink.append('# ', formatDateBilingual(post.date));
+  top.append(permalink, createElement('span', null, host));
   const title = createElement('h3'); appendBilingualText(title, post.title);
   const note = createElement('p'); appendBilingualText(note, post.note);
   body.append(top, title, note);
@@ -50,6 +60,7 @@ function renderRadarCard(post) {
   }
   body.append(actions);
   card.append(thumb, body);
+  addShareButton(card);
   return card;
 }
 
@@ -61,5 +72,6 @@ fetch('posts.json')
     document.getElementById('radar-posts').append(...cards);
     document.getElementById('radar-empty').hidden = posts.length > 0;
     setUpRadarFilters(posts, cards);
+    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
   })
   .catch(() => { document.getElementById('radar-empty').hidden = false; });

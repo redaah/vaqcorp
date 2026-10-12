@@ -47,7 +47,8 @@ a.exp:hover{border-color:var(--acc-ink);box-shadow:0 14px 30px -18px rgba(0,0,0,
 .exp .stack{display:flex;flex-wrap:wrap;gap:.4rem}
 .exp .stack > span{font-size:.7rem;border:1px solid var(--line);border-radius:4px;padding:.15rem .45rem;color:var(--acc-2)}
 .exp .go{font-size:.8rem;color:var(--text)}
-.exp.feature{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:end;padding:30px}
+.exp.feature{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:center;padding:30px}
+.exp.feature .exp-top{justify-content:flex-start;gap:1.2rem}
 .exp.feature h3{font-size:2.2rem;margin:.6rem 0}
 .exp.feature p{font-size:1.05rem;max-width:58ch}
 .feature-side{display:flex;flex-direction:column;gap:.9rem;align-items:flex-start}
@@ -62,6 +63,19 @@ a.exp:hover{border-color:var(--acc-ink);box-shadow:0 14px 30px -18px rgba(0,0,0,
 .thumb-susana{background:linear-gradient(180deg,#3d6bf4,#2c58e2);display:grid;place-items:end center}
 .thumb-susana img{width:auto;height:180px;object-fit:contain}
 a.exp:hover .thumb img{transform:scale(1.04)}
+.exp[id]{scroll-margin-top:80px}
+.exp:target{border-color:var(--acc-ink);box-shadow:0 0 0 3px var(--acc)}
+
+/* Share button + menu (share.js), pinned to the card's bottom-right corner */
+.share-host{position:relative;display:grid}
+.share-button{position:absolute;right:14px;bottom:14px;z-index:2;display:grid;place-items:center;width:36px;height:36px;border:1.5px solid var(--line);border-radius:50%;background:var(--bg-2);color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s}
+.share-button:hover,.share-button[aria-expanded="true"]{color:var(--text);border-color:var(--text)}
+.share-menu{position:absolute;right:14px;bottom:58px;z-index:5;display:flex;flex-direction:column;min-width:170px;padding:6px;background:var(--bg-2);border:1.5px solid var(--text);border-radius:12px;box-shadow:4px 4px 0 var(--text)}
+.share-host:has(> .feature) .share-button{right:30px;bottom:22px}
+.share-host:has(> .feature) .share-menu{right:30px;bottom:66px}
+.share-menu[hidden]{display:none}
+.share-menu a,.share-menu button{font:inherit;font-size:.8rem;text-align:left;text-decoration:none;color:var(--text);background:none;border:0;border-radius:8px;padding:.45rem .7rem;cursor:pointer}
+.share-menu a:hover,.share-menu button:hover{background:var(--acc)}
 @media (max-width:760px){.exp.feature{grid-template-columns:1fr}}
 
 footer{padding:30px 0 40px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line)}
