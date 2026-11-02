@@ -63,8 +63,9 @@ function renderRadarCard(post) {
   thumb.append(renderTagList(post));
   const body = createElement('div', 'radar-card-body');
   const title = createElement('h3'); appendBilingualText(title, post.title);
+  const summary = createElement('p', 'radar-card-summary'); appendBilingualText(summary, post.summary ?? post.note);
   const meta = createElement('p', 'radar-card-meta mono', hostOf(post));
-  body.append(title, meta);
+  body.append(title, summary, meta);
   if (post.stamps?.length) body.append(renderStamps(post));
   card.append(thumb, body);
   return card;
