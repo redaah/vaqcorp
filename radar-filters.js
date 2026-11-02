@@ -1,5 +1,6 @@
-// Search box, tag/stamp chips and month picker for radar.html. Needs site.js; radar.js calls setUpRadarFilters.
-const radarFilterState = { text: '', label: null, month: '' };
+// Tag chips (All · Tool · Game · Idea) and a search box for radar.html's grid.
+// Needs site.js; radar.js defines RADAR_TAGS and calls setUpRadarFilters.
+const radarFilterState = { text: '', tag: null };
 
 function normalizeSearchText(text) {
   return text.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -9,15 +10,11 @@ function joinBilingualText(value) {
   return typeof value === 'string' ? value : Object.values(value).join(' ');
 }
 
-function labelKey(value) {
-  return normalizeSearchText(typeof value === 'string' ? value : value.en ?? value.es);
-}
-
 function indexRadarCard(card, post) {
-  const labels = [...(post.stamps ?? []), ...(post.tags ?? [])];
-  card.dataset.search = normalizeSearchText([post.title, post.note, post.url, ...labels].map(joinBilingualText).join(' '));
-  card.dataset.labels = labels.map(labelKey).join('|');
-  card.dataset.month = post.date.slice(0, 7);
+  const tags = radarPostTags(post);
+  const words = [post.title, post.note, post.url, ...(post.stamps ?? []), ...tags.map(tag => RADAR_TAGS[tag])];
+  card.dataset.search = normalizeSearchText(words.map(joinBilingualText).join(' '));
+  card.dataset.tags = tags.join(' ');
 }
 
 function applyRadarFilters(cards) {
@@ -25,53 +22,45 @@ function applyRadarFilters(cards) {
   let visibleCount = 0;
   cards.forEach(card => {
     const matches = words.every(word => card.dataset.search.includes(word))
-      && (!radarFilterState.label || card.dataset.labels.split('|').includes(radarFilterState.label))
-      && (!radarFilterState.month || card.dataset.month === radarFilterState.month);
+      && (!radarFilterState.tag || card.dataset.tags.split(' ').includes(radarFilterState.tag));
     card.hidden = !matches;
     if (matches) visibleCount++;
   });
   document.getElementById('radar-no-match').hidden = visibleCount > 0;
 }
 
-function renderLabelChips(posts, cards) {
-  const chipList = document.getElementById('radar-labels');
-  const labels = new Map();
-  posts.forEach(post => {
-    (post.stamps ?? []).forEach(value => labels.has(labelKey(value)) || labels.set(labelKey(value), { value, isStamp: true }));
-    (post.tags ?? []).forEach(value => labels.has(labelKey(value)) || labels.set(labelKey(value), { value, isStamp: false }));
-  });
-  labels.forEach(({ value, isStamp }, key) => {
-    const chip = createElement('button', isStamp ? 'chip mono is-stamp' : 'chip mono');
+// One chip per tag that some post uses, plus "All". Each chip shows how many posts it has.
+function renderTagChips(posts, cards) {
+  const chipList = document.getElementById('radar-tags');
+  const counts = Object.fromEntries(Object.keys(RADAR_TAGS).map(tag => [tag, 0]));
+  posts.forEach(post => radarPostTags(post).forEach(tag => counts[tag]++));
+  const chips = [[null, { es: 'TODO', en: 'ALL' }, posts.length], ...Object.entries(RADAR_TAGS).map(([tag, label]) => [tag, label, counts[tag]])];
+  chips.filter(([, , count]) => count > 0).forEach(([tag, label, count]) => {
+    const chip = createElement('button', 'chip mono');
     chip.type = 'button';
-    chip.setAttribute('aria-pressed', 'false');
-    appendBilingualText(chip, value);
+    chip.dataset.tag = tag ?? '';
+    chip.setAttribute('aria-pressed', String(tag === null));
+    appendBilingualText(chip, label);
+    chip.append(createElement('small', null, String(count)));
     chip.addEventListener('click', () => {
-      radarFilterState.label = radarFilterState.label === key ? null : key;
-      chipList.querySelectorAll('.chip').forEach(other => other.setAttribute('aria-pressed', String(other === chip && radarFilterState.label === key)));
+      radarFilterState.tag = tag;
+      chipList.querySelectorAll('.chip').forEach(other => other.setAttribute('aria-pressed', String(other === chip)));
       applyRadarFilters(cards);
     });
     chipList.append(chip);
   });
 }
 
-// <option> and placeholder can't hold lang spans, so they are rewritten on every language switch.
-function localizeRadarFilterControls(posts) {
-  const lang = root.dataset.lang;
-  document.getElementById('radar-search').placeholder = lang === 'es' ? 'Buscar por nombre, etiqueta…' : 'Search by name, tag…';
-  const monthSelect = document.getElementById('radar-month');
-  const months = [...new Set(posts.map(post => post.date.slice(0, 7)))].sort().reverse();
-  monthSelect.replaceChildren(
-    new Option(lang === 'es' ? 'Todas las fechas' : 'All dates', ''),
-    ...months.map(month => new Option(new Date(month + '-15').toLocaleDateString(lang, { month: 'long', year: 'numeric' }), month)));
-  monthSelect.value = radarFilterState.month;
+// A placeholder can't hold lang spans, so it is rewritten on every language switch.
+function localizeRadarSearch() {
+  document.getElementById('radar-search').placeholder = root.dataset.lang === 'es' ? 'Buscar…' : 'Search…';
 }
 
 function setUpRadarFilters(posts, cards) {
   cards.forEach((card, index) => indexRadarCard(card, posts[index]));
-  renderLabelChips(posts, cards);
-  localizeRadarFilterControls(posts);
+  renderTagChips(posts, cards);
+  localizeRadarSearch();
   document.getElementById('radar-filters').hidden = posts.length === 0;
   document.getElementById('radar-search').addEventListener('input', event => { radarFilterState.text = event.target.value; applyRadarFilters(cards); });
-  document.getElementById('radar-month').addEventListener('change', event => { radarFilterState.month = event.target.value; applyRadarFilters(cards); });
-  document.querySelectorAll('[data-set-lang]').forEach(button => button.addEventListener('click', () => localizeRadarFilterControls(posts)));
+  document.querySelectorAll('[data-set-lang]').forEach(button => button.addEventListener('click', localizeRadarSearch));
 }

@@ -16,37 +16,70 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css">
 <style>
-  .radar-list{display:flex;flex-direction:column;gap:18px}
-  .radar-item{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:0;padding:0}
-  .radar-item .thumb{margin:0;height:100%;min-height:220px;border-radius:14px 0 0 14px;border-bottom:0;border-right:1px solid var(--line)}
-  .radar-item{position:relative}
-  .radar-item:hover{border-color:var(--acc-ink);box-shadow:0 14px 30px -18px rgba(0,0,0,.25);transform:translateY(-3px)}
-  .radar-item:hover .thumb img{transform:scale(1.04)}
-  .radar-visit{text-decoration:none}
-  .radar-visit::after{content:"";position:absolute;inset:0}
-  .radar-permalink{position:relative;z-index:1;text-decoration:none}
-  .radar-permalink:hover{color:var(--text);text-decoration:underline}
-  .radar-actions{padding-right:44px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.8rem}
-  .radar-try{position:relative;z-index:1;font-size:.8rem;font-weight:600;text-decoration:none;padding:.5rem .95rem;border:2px solid var(--text);border-radius:999px;background:var(--acc);box-shadow:3px 3px 0 var(--text);transition:transform .15s,box-shadow .15s}
-  .radar-try:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--text)}
-  .radar-item .thumb{position:relative}
-  .stamps{position:absolute;left:16px;bottom:16px;display:flex;flex-wrap:wrap;gap:10px}
-  .stamps > span{font-weight:600;font-size:.85rem;letter-spacing:.08em;color:var(--warn);background:rgba(255,255,255,.92);border:2.5px solid var(--warn);border-radius:6px;padding:.2rem .6rem;transform:rotate(-6deg);box-shadow:0 0 0 2px rgba(255,255,255,.92)}
-  .stamps > span:nth-child(even){transform:rotate(4deg)}
-  .radar-body{padding:24px 28px;display:flex;flex-direction:column;gap:.8rem}
-  .radar-body h3{font-size:1.7rem}
-  .radar-body p{font-size:1.02rem;max-width:62ch}
-  .radar-item[hidden]{display:none}
-  .radar-filters{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px}
-  .radar-filters input,.radar-filters select{font-size:.85rem;padding:.6rem .85rem;border:1.5px solid var(--line);border-radius:10px;background:var(--bg-2);color:var(--text)}
-  .radar-filters input{flex:1 1 260px}
-  .radar-filters input:focus,.radar-filters select:focus{outline:none;border-color:var(--text)}
-  .radar-labels{display:flex;flex-wrap:wrap;gap:8px;flex-basis:100%}
-  .chip{font-size:.72rem;letter-spacing:.04em;padding:.3rem .65rem;border:1px solid var(--line);border-radius:999px;background:var(--bg-2);color:var(--acc-2);cursor:pointer}
-  .chip.is-stamp{color:var(--warn);border-color:var(--warn)}
-  .chip:hover{border-color:var(--text)}
+  /* Grid: 2 columns of compact cards */
+  .radar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+  .radar-card{display:flex;flex-direction:column;background:var(--bg-2);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;transition:border-color .2s,transform .2s,box-shadow .2s}
+  .radar-card:hover{border-color:var(--acc-ink);box-shadow:0 14px 30px -18px rgba(0,0,0,.25);transform:translateY(-3px)}
+  .radar-card[hidden]{display:none}
+  .radar-thumb{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--bg);border-bottom:1px solid var(--line)}
+  .radar-thumb img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 20%;transition:transform .4s}
+  .radar-card:hover .radar-thumb img{transform:scale(1.04)}
+  .radar-thumb .radar-tags{position:absolute;top:12px;left:12px}
+  .radar-tags{display:flex;flex-wrap:wrap;gap:6px}
+  .radar-tags > span{font-size:.66rem;font-weight:600;letter-spacing:.06em;padding:.2rem .5rem;border-radius:999px;background:var(--text);color:var(--acc)}
+  .radar-card-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:.5rem}
+  .radar-card-body h3{font-size:1.25rem;line-height:1.25}
+  .radar-card-meta{font-size:.72rem;color:var(--muted)}
+  .radar-card-summary{font-size:.92rem;line-height:1.45;color:var(--muted);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}
+  .stamps{display:flex;flex-wrap:wrap;gap:8px}
+  .stamps > span{font-weight:600;font-size:.68rem;letter-spacing:.08em;color:var(--warn);background:rgba(255,255,255,.92);border:2px solid var(--warn);border-radius:5px;padding:.1rem .45rem;transform:rotate(-3deg)}
+  .stamps > span:nth-child(even){transform:rotate(2deg)}
+
+  /* Filters: tag chips + search, one row */
+  .radar-filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:22px}
+  .radar-chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:.72rem;font-weight:600;letter-spacing:.05em;padding:.35rem .75rem;border:1.5px solid var(--line);border-radius:999px;background:var(--bg-2);color:var(--muted);cursor:pointer}
+  .chip small{margin-left:.4rem;font-size:.65rem;opacity:.6}
+  .chip:hover{border-color:var(--text);color:var(--text)}
   .chip[aria-pressed="true"]{background:var(--text);border-color:var(--text);color:var(--acc)}
-  @media (max-width:700px){.radar-item{grid-template-columns:1fr}.radar-item .thumb{height:200px;min-height:0;border-radius:14px 14px 0 0;border-right:0;border-bottom:1px solid var(--line)}}
+  .radar-filters input{flex:0 1 220px;min-width:0;font-size:.8rem;padding:.45rem .8rem;border:1.5px solid var(--line);border-radius:999px;background:var(--bg-2);color:var(--text)}
+  .radar-filters input:focus{outline:none;border-color:var(--text)}
+
+  /* Detail */
+  .radar-detail-view{padding-top:28px}
+  .radar-back{display:inline-block;font-size:.8rem;color:var(--muted);text-decoration:none;margin-bottom:18px}
+  .radar-back:hover{color:var(--text)}
+  .radar-detail{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);background:var(--bg-2);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  .radar-detail .radar-thumb{aspect-ratio:auto;min-height:320px;border-bottom:0;border-right:1px solid var(--line)}
+  .radar-detail .radar-thumb img{position:absolute;inset:0}
+  .radar-detail .radar-thumb .stamps{position:absolute;left:18px;bottom:18px;gap:10px}
+  .radar-detail .radar-thumb .stamps > span{font-size:.85rem;border-width:2.5px;padding:.2rem .6rem;transform:rotate(-6deg)}
+  .radar-detail .radar-thumb .stamps > span:nth-child(even){transform:rotate(4deg)}
+  .radar-detail-body{padding:26px 28px 28px;display:flex;flex-direction:column;gap:.9rem}
+  .radar-detail-body h3{font-size:clamp(1.7rem,4vw,2.3rem);line-height:1.15}
+  .radar-detail-body p{font-size:1.05rem;max-width:62ch;color:var(--muted)}
+  .radar-actions{padding-right:44px;display:flex;align-items:center;flex-wrap:wrap;gap:.8rem 1.2rem;margin-top:.3rem}
+  .radar-visit{font-size:.85rem;color:var(--text)}
+  .radar-try{font-size:.8rem;font-weight:600;text-decoration:none;padding:.5rem .95rem;border:2px solid var(--text);border-radius:999px;background:var(--acc);box-shadow:3px 3px 0 var(--text);transition:transform .15s,box-shadow .15s}
+  .radar-try:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--text)}
+
+  @media (max-width:800px){.radar-detail{grid-template-columns:1fr}.radar-detail .radar-thumb{aspect-ratio:16/10;min-height:0;border-right:0;border-bottom:1px solid var(--line)}}
+  @media (max-width:640px){
+    .radar-grid{gap:10px}
+    .radar-card{border-radius:12px}
+    .radar-card:hover{transform:none}
+    .radar-card .radar-thumb{aspect-ratio:4/3}
+    .radar-thumb .radar-tags{top:6px;left:6px;gap:4px}
+    .radar-tags > span{font-size:.56rem;padding:.12rem .4rem}
+    .radar-card-body{padding:10px 10px 12px;gap:.35rem}
+    .radar-card-body h3{font-size:.95rem}
+    .radar-card-summary{font-size:.74rem;line-height:1.4;-webkit-line-clamp:4;line-clamp:4}
+    .radar-card-meta{font-size:.62rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .radar-card .stamps{gap:5px}
+    .radar-card .stamps > span{font-size:.55rem;border-width:1.5px;padding:.05rem .3rem}
+    .radar-filters input{flex:1 1 100%}
+    .radar-detail-body{padding:20px}
+  }
 </style>
 </head>
 <body>
@@ -61,21 +94,25 @@
   </div>
 </div></nav>
 
-<header class="page-head"><div class="wrap">
+<header class="page-head" id="radar-head"><div class="wrap">
   <p class="tag mono"><span lang="es">inventos geniales</span><span lang="en">cool inventions</span></p>
   <h1>Radar</h1>
   <p class="lede"><span lang="es">Inventos geniales de otros inventores locos, encontrados por internet.</span><span lang="en">Cool inventions by other mad inventors, found around the internet.</span></p>
 </div></header>
 
 <main><div class="wrap" style="padding-bottom:80px">
-  <div class="radar-filters" id="radar-filters" hidden>
-    <input type="search" id="radar-search" class="mono" aria-label="Buscar / Search">
-    <select id="radar-month" class="mono" aria-label="Fecha / Date"></select>
-    <div class="radar-labels" id="radar-labels"></div>
+  <div id="radar-grid-view">
+    <div class="radar-filters" id="radar-filters" hidden>
+      <div class="radar-chips" id="radar-tags" role="group" aria-label="Etiquetas / Tags"></div>
+      <input type="search" id="radar-search" class="mono" aria-label="Buscar / Search">
+    </div>
+    <div class="radar-grid" id="radar-posts"></div>
+    <p class="empty mono" id="radar-empty" hidden><span lang="es">// todavía nada en el radar</span><span lang="en">// nothing on the radar yet</span></p>
+    <p class="empty mono" id="radar-no-match" hidden><span lang="es">// nada coincide con la búsqueda</span><span lang="en">// nothing matches your search</span></p>
   </div>
-  <div class="radar-list" id="radar-posts"></div>
-  <p class="empty mono" id="radar-empty" hidden><span lang="es">// todavía nada en el radar</span><span lang="en">// nothing on the radar yet</span></p>
-  <p class="empty mono" id="radar-no-match" hidden><span lang="es">// nada coincide con la búsqueda</span><span lang="en">// nothing matches your search</span></p>
+  <div class="radar-detail-view" id="radar-detail" hidden>
+    <a class="radar-back mono" id="radar-back" href="radar.html"><span lang="es">← Volver al Radar</span><span lang="en">← Back to Radar</span></a>
+  </div>
 </div></main>
 
 <footer><div class="wrap mono"><span>© VaqCorp · Sevilla</span><span>// built by a mad inventor</span></div></footer>
