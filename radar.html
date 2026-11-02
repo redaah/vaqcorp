@@ -63,7 +63,21 @@
   .radar-try:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--text)}
 
   @media (max-width:800px){.radar-detail{grid-template-columns:1fr}.radar-detail .radar-thumb{aspect-ratio:16/10;min-height:0;border-right:0;border-bottom:1px solid var(--line)}}
-  @media (max-width:640px){.radar-grid{grid-template-columns:1fr}.radar-filters input{flex:1 1 100%}.radar-detail-body{padding:20px}}
+  @media (max-width:640px){
+    .radar-grid{gap:10px}
+    .radar-card{border-radius:12px}
+    .radar-card:hover{transform:none}
+    .radar-card .radar-thumb{aspect-ratio:4/3}
+    .radar-thumb .radar-tags{top:6px;left:6px;gap:4px}
+    .radar-tags > span{font-size:.56rem;padding:.12rem .4rem}
+    .radar-card-body{padding:10px 10px 12px;gap:.35rem}
+    .radar-card-body h3{font-size:.95rem}
+    .radar-card-meta{font-size:.62rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .radar-card .stamps{gap:5px}
+    .radar-card .stamps > span{font-size:.55rem;border-width:1.5px;padding:.05rem .3rem}
+    .radar-filters input{flex:1 1 100%}
+    .radar-detail-body{padding:20px}
+  }
 </style>
 </head>
 <body>
