@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-25",
+    "url": "https://edjefferson.com/localwiki/",
+    "title": "Local Wikipedia",
+    "note": {
+      "es": "Wikipedia, pero solo con lo que tienes a media hora andando. Escribes tu barrio o le das tu ubicación y te enseña los artículos geolocalizados de alrededor: esa iglesia, ese puente, esa calle por la que pasas cada día sin saber su historia. Tu ubicación no sale del navegador. Una forma preciosa de redescubrir tu propia ciudad.",
+      "en": "Wikipedia, but only for things within a half-hour walk. Type your neighbourhood or share your location and it shows the geotagged articles around you: that church, that bridge, that street you walk down every day without knowing its story. Your location never leaves the browser. A lovely way to rediscover your own town."
+    },
+    "image": "img/radar/localwiki.png",
+    "stamps": ["ORIGINAL", { "es": "CURIOSO", "en": "CURIOUS" }],
+    "tags": ["WEB", { "es": "MAPAS", "en": "MAPS" }, "WIKIPEDIA"],
+    "try": {
+      "label": { "es": "Descubre qué hay a tu alrededor (pulsa «Use my location») →", "en": "Discover what's around you (tap “Use my location”) →" },
+      "url": "https://edjefferson.com/localwiki/"
+    }
+  },
+  {
     "date": "2026-10-11",
     "url": "https://onorca.dev/",
     "title": "Orca",
