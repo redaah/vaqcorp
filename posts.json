@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-04",
+    "url": "https://neufangled.com/",
+    "title": "Stringman",
+    "summary": { "es": "Un robot de cables que cuelga una pinza de las esquinas del techo y la mueve por toda la habitación con solo cuatro motores.", "en": "A cable robot that hangs a gripper from the ceiling corners and moves it around the whole room with just four motors." },
+    "note": {
+      "es": "En vez de un brazo robótico caro con alcance de medio metro, cuelga una pinza de cuatro cables anclados en las esquinas del techo y la pasea por toda la habitación con solo cuatro motores. Al trabajar desde arriba llega a suelos llenos de trastos donde no entra ningún robot con ruedas. Es de código abierto (CAD, placas y software publicados, con certificación OSHWA) y funciona sin salir de tu red. Según su web cuesta 795 $, carga hasta 2,2 kg cerca del suelo y vale para habitaciones de 3 a 10 m. Una idea tan sencilla como ingeniosa.",
+      "en": "Instead of an expensive robot arm with half a metre of reach, it hangs a gripper from four lines anchored in the ceiling corners and moves it around the whole room with just four motors. Working from above, it reaches cluttered floors no wheeled robot can get to. It's open source (CAD, PCBs and software published, OSHWA certified) and runs without leaving your network. According to the maker it costs $795, lifts up to 2.2 kg near the floor and works in rooms 3 to 10 m across. As simple as it is clever."
+    },
+    "image": "img/radar/stringman.png",
+    "stamps": [{ "es": "INGENIOSO", "en": "CLEVER" }, { "es": "CÓDIGO ABIERTO", "en": "OPEN SOURCE" }],
+    "tags": ["tool"]
+  },
+  {
     "date": "2026-10-25",
     "url": "https://edjefferson.com/localwiki/",
     "title": "Local Wikipedia",
