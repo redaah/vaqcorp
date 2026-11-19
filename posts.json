@@ -28,32 +28,6 @@
     ]
   },
   {
-    "date": "2026-11-18",
-    "url": "https://www.kickstarter.com/projects/pliavo/pliavo-the-84-key-piano-that-goes-with-you",
-    "title": "PLIAVO",
-    "summary": {
-      "es": "Un piano de 84 teclas que se pliega hasta 16 cm y pesa 700 g. Campaña de Kickstarter.",
-      "en": "An 84-key piano that folds down to 16 cm and weighs 700 g. A Kickstarter campaign."
-    },
-    "note": {
-      "es": "Un piano plegable para llevar a cualquier parte: 84 o 60 teclas de verdad, se dobla hasta 16 cm y pesa 700 g, según la campaña. Suena por sí solo y también funciona como teclado MIDI por USB y Bluetooth. Ojo: es una campaña de Kickstarter, del 17 de noviembre al 22 de diciembre, no un producto que ya se envíe; al día siguiente pasaba de 74.000 $ con un objetivo de 3.000. Para quien no quiere separarse de las teclas ni de viaje.",
-      "en": "A folding piano to take anywhere: 84 or 60 real keys, folds to 16 cm and weighs 700 g, according to the campaign. It plays on its own and also works as a USB and Bluetooth MIDI keyboard. Note: it's a Kickstarter campaign, running 17 November to 22 December, not a shipping product; a day in it had passed $74,000 against a $3,000 goal. For anyone who can't bear to leave the keys behind, even on a trip."
-    },
-    "stamps": [
-      {
-        "es": "INGENIOSO",
-        "en": "CLEVER"
-      },
-      {
-        "es": "ÚTIL",
-        "en": "USEFUL"
-      }
-    ],
-    "tags": [
-      "tool"
-    ]
-  },
-  {
     "date": "2026-11-17",
     "url": "https://hackaday.com/2026/11/16/the-fastest-paddleboard-in-the-world/",
     "title": "rctestflight's electric paddleboard",
@@ -296,32 +270,6 @@
       },
       "url": "https://ductus.sorenblank.com"
     }
-  },
-  {
-    "date": "2026-11-16",
-    "url": "https://www.kickstarter.com/projects/birdcartel/retro-song-bird",
-    "title": "Retro Song Bird",
-    "summary": {
-      "es": "Campaña de Kickstarter para un reproductor de bandas sonoras de cartuchos de Game Boy.",
-      "en": "A Kickstarter campaign for a player of Game Boy cartridge soundtracks."
-    },
-    "note": {
-      "es": "Metes un cartucho de Game Boy o Game Boy Color y suena su música «como un casete o un CD», según su creador, un desarrollador en solitario. Tiene botones de siguiente, anterior y volumen y salida de línea estéreo, y además hace copias de partidas y ROMs, graba cartuchos regrabables, manda cuatro pistas de audio por USB a un DAW y, con una Game Boy Camera, hace de webcam USB de 128x112. Es una campaña de Kickstarter (del 15 de noviembre al 15 de diciembre) para fabricar el prototipo, no un producto en tienda; ya ha superado su objetivo de 15.000 $. Un capricho perfecto para nostálgicos.",
-      "en": "Plug in a Game Boy or Game Boy Color cartridge and its music plays “just like a cassette or CD”, according to its solo developer. It has next, previous and volume buttons and a stereo line out, and it can also back up saves and ROMs, flash writable carts, send four USB audio streams to a DAW and, with a Game Boy Camera, act as a 128x112 USB webcam. It's a Kickstarter campaign (15 November to 15 December) to fund a production run of the prototype, not a shop product; it has already passed its $15,000 goal. A perfect treat for the nostalgic."
-    },
-    "stamps": [
-      {
-        "es": "COMPLETÍSIMO",
-        "en": "LOADED"
-      },
-      {
-        "es": "DIVERTIDO",
-        "en": "FUN"
-      }
-    ],
-    "tags": [
-      "tool"
-    ]
   },
   {
     "date": "2026-11-15",
@@ -952,28 +900,6 @@
   },
   {
     "date": "2026-11-11",
-    "url": "https://www.kickstarter.com/projects/salahb/hiyd-add-health-tracking-to-the-watch-you-love",
-    "title": "HIYD",
-    "summary": {
-      "es": "Un sensor de 2,7 mm que añade seguimiento de salud al reloj que ya tienes. Campaña de Kickstarter.",
-      "en": "A 2.7 mm sensor that adds health tracking to the watch you already own. A Kickstarter campaign."
-    },
-    "note": {
-      "es": "Un sensor fino e impermeable, de 2,7 mm según la campaña, pensado para dar funciones de salud a un reloj de pulsera que ya tengas, «sin imanes, sin pegamento y sin cuotas mensuales». Ojo: es una campaña de Kickstarter, no algo que puedas comprar ya; empezó el 10 de noviembre y termina el 11 de diciembre. Al día siguiente ya superaba los 497.000 $ de un objetivo de 10.000. Una idea estupenda para quien no quiere renunciar a su reloj de siempre.",
-      "en": "A thin waterproof sensor, 2.7 mm according to the campaign, meant to add health tracking to a wristwatch you already own, with 'no magnets, no glue, no monthly fees'. Note: it's a Kickstarter campaign, not something you can buy yet; it started on 10 November and ends on 11 December. A day in, it had passed $497,000 against a $10,000 goal. A great idea for anyone who won't give up their favourite watch."
-    },
-    "stamps": [
-      {
-        "es": "INGENIOSO",
-        "en": "CLEVER"
-      }
-    ],
-    "tags": [
-      "idea"
-    ]
-  },
-  {
-    "date": "2026-11-11",
     "url": "https://github.com/Mew463/roboticcarcharger",
     "title": "Robotic EV charger",
     "summary": {
@@ -1250,39 +1176,6 @@
     }
   },
   {
-    "date": "2026-11-09",
-    "url": "https://ketchup3d.github.io/app/",
-    "title": "KetchUp",
-    "summary": {
-      "es": "Un modelador 3D libre y gratuito pensado para carpintería y muebles, alternativa a SketchUp.",
-      "en": "A free, open-source 3D modeller for woodworking and furniture, an alternative to SketchUp."
-    },
-    "note": {
-      "es": "Un modelador 3D gratuito y de código abierto, hecho en Rust y WebGPU, pensado para carpintería y diseño de muebles. Tiene Push/Pull, ajuste a medidas exactas, componentes y etiquetas, importa geometría de SketchUp y exporta a OBJ. Se descarga para Windows x64, macOS con Apple Silicon y Linux (AppImage), funciona también en el navegador de escritorio y no pide cuenta. Ojo: se presentó como KetchUp, pero su web ahora pone BenchUp. Justo lo que pedía cualquiera que diseña muebles en casa.",
-      "en": "A free, open-source 3D modeller written in Rust and WebGPU, aimed at woodworking and furniture design. It has Push/Pull, exact-dimension snapping, components and tags, imports SketchUp geometry and exports OBJ. There are downloads for Windows x64, Apple Silicon macOS and Linux (AppImage), it also runs in a desktop browser, and no account is needed. Heads up: it launched as KetchUp, but its page now says BenchUp. Just what every home furniture designer was asking for."
-    },
-    "stamps": [
-      {
-        "es": "ÚTIL",
-        "en": "USEFUL"
-      },
-      {
-        "es": "CÓDIGO ABIERTO",
-        "en": "OPEN SOURCE"
-      }
-    ],
-    "tags": [
-      "tool"
-    ],
-    "try": {
-      "label": {
-        "es": "Pruébalo →",
-        "en": "Try it →"
-      },
-      "url": "https://ketchup3d.github.io/app/"
-    }
-  },
-  {
     "date": "2026-11-08",
     "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods/",
     "title": "MousePods",
@@ -1303,28 +1196,6 @@
     ],
     "tags": [
       "tool"
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "url": "https://www.kickstarter.com/projects/avioframe/aviogallery-see-every-plane-flying-over-your-home",
-    "title": "Avioframe Gallery",
-    "summary": {
-      "es": "Una pantalla de sobremesa que muestra en directo cada avión que vuela sobre tu casa. Campaña de Kickstarter.",
-      "en": "A desk display that shows every plane flying over your home, live. A Kickstarter campaign."
-    },
-    "note": {
-      "es": "Un marco de sobremesa que enseña en directo todos los aviones que pasan por encima de tu casa, con aerolínea, ruta y altitud. Es un proyecto suizo y, ojo, de momento es una campaña de Kickstarter, no un producto en tienda: arrancó el 5 de noviembre y dura hasta el 26. A los dos días ya llevaba más de 63.000 CHF de un objetivo de 20.000. Para quien siempre mira al cielo preguntándose adónde va ese avión.",
-      "en": "A desk frame that shows, live, every plane passing over your home, with airline, route and altitude. It's a Swiss project and, note, for now it's a Kickstarter campaign, not a shop product: it launched on 5 November and runs to the 26th. Two days in it had passed CHF 63,000 against a CHF 20,000 goal. For anyone who looks up and wonders where that plane is going."
-    },
-    "stamps": [
-      {
-        "es": "CURIOSO",
-        "en": "CURIOUS"
-      }
-    ],
-    "tags": [
-      "idea"
     ]
   },
   {
@@ -1493,28 +1364,6 @@
       },
       "url": "https://hjkl.duy.run"
     }
-  },
-  {
-    "date": "2026-11-03",
-    "url": "https://news.ycombinator.com/item?id=50340088",
-    "title": "Subvocal",
-    "summary": {
-      "es": "Unas gafas prototipo que, según la startup, leen las palabras que articulas en silencio usando ondas de radio.",
-      "en": "Prototype glasses that, according to the startup, read words you silently mouth using radio waves."
-    },
-    "note": {
-      "es": "Una startup de YC F26 enseña unas gafas prototipo que, según cuentan en Hacker News, usan ondas de radio de baja potencia para descifrar en la nube las palabras que articulas sin emitir sonido. Abren reservas para las primeras 500 unidades con 200 $ de descuento sobre un precio que no dicen, y prevén enviarlas en el primer trimestre de 2027. Todo lo dice la propia empresa: no hay cifras de precisión y en los comentarios se habló mucho de privacidad. Aun así, la idea de hablar sin hablar tiene algo de ciencia ficción.",
-      "en": "A YC F26 startup is showing prototype glasses that, as they explain on Hacker News, use low-power radio waves to decode in the cloud the words you mouth without making a sound. They're taking preorders for the first 500 units with $200 off a price they don't state, and plan to ship in Q1 2027. All of this is the company's own claim: there's no accuracy figure, and commenters raised plenty of privacy concerns. Still, the idea of talking without talking feels like science fiction."
-    },
-    "stamps": [
-      {
-        "es": "CURIOSO",
-        "en": "CURIOUS"
-      }
-    ],
-    "tags": [
-      "idea"
-    ]
   },
   {
     "date": "2026-11-03",
