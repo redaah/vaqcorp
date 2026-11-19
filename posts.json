@@ -1,61 +1,1669 @@
 [
   {
+    "date": "2026-11-18",
+    "url": "https://hackaday.com/2026/11/17/a-pen-plotter-to-draw-you-up-on-the-wall/",
+    "title": "Mural 2.0",
+    "summary": {
+      "es": "Un plóter casero que se cuelga de una correa y trepa por la pared para dibujar murales.",
+      "en": "A homemade pen plotter that hangs from a belt and climbs the wall to draw murals."
+    },
+    "note": {
+      "es": "Un plóter de gran formato de Nik Ivanov que cuelga de una sola correa anclada al techo y trepa por la pared con dos motores paso a paso NEMA 17 planos. Lo controla una placa FluidNC basada en ESP32 con drivers TMC2209. Por su geometría pierde cerca de un 20 % de superficie en los bordes, y los rotuladores se cansan tras unos 500 m de línea. Es de código abierto. Convierte cualquier pared en un lienzo.",
+      "en": "A large-format plotter by Nik Ivanov that hangs from a single belt anchored at the ceiling and climbs the wall with two NEMA 17 pancake steppers. It's driven by an ESP32-based FluidNC board with TMC2209 drivers. The geometry loses about 20% of the area at the edges, and markers weaken after about 500 m of line. It's open source. It turns any wall into a canvas."
+    },
+    "image": "img/radar/mural-2-0.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "url": "https://hackaday.com/2026/11/16/the-fastest-paddleboard-in-the-world/",
+    "title": "rctestflight's electric paddleboard",
+    "summary": {
+      "es": "Una tabla de paddle surf con dos hidroalas y 12 kW eléctricos que pasa de 40 km/h.",
+      "en": "A paddleboard with two hydrofoils and 12 kW of electric power that tops 40 km/h."
+    },
+    "note": {
+      "es": "El youtuber [rctestflight] le ha puesto a una tabla de paddle surf dos mástiles de hidroala de un proyecto anterior, cada uno con un motor eléctrico de 6 kW y hélices desarrolladas en pruebas previas, además de baterías impermeabilizadas y mando a distancia. Se pone a planear enseguida y supera los 40 km/h. Hackaday dice que probablemente sea la embarcación más rápida de su tipo. Una locura de las que da gusto ver.",
+      "en": "YouTuber [rctestflight] fitted a paddleboard with two hydrofoil masts from an earlier build, each carrying a 6 kW electric motor with propellers developed in previous tests, plus waterproofed batteries and a remote control. It planes quickly and runs at over 40 km/h. Hackaday calls it likely the fastest craft of its kind. The kind of madness that's a joy to watch."
+    },
+    "image": "img/radar/rctestflight-s-electric-paddleboard.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "url": "https://trmnl.com/blog/introducing-frame",
+    "title": "TRMNL Frame",
+    "summary": {
+      "es": "Una pantalla de tinta electrónica a todo color de 31,5 pulgadas en un marco de madera hecho a mano. En reserva.",
+      "en": "A 31.5-inch full-colour ePaper display in a handmade wooden frame. On pre-order."
+    },
+    "note": {
+      "es": "El tercer aparato de TRMNL es Frame, una pantalla de tinta electrónica a todo color de 31,5 pulgadas con cuerpo de madera fabricado en su propio taller de carpintería. Ya admite reservas: la primera tanda ronda las 470 unidades, esperan enviar unas pocas antes de que acabe 2026 y la mayoría a principios de 2027. Una pantalla que parece un cuadro: tecnología con calidez.",
+      "en": "TRMNL's third device is Frame, a 31.5-inch full-colour ePaper display with a wooden body built in their own woodworking shop. Pre-orders are open: the first batch is about 470 units, they hope to ship a few before the end of 2026 and most in early 2027. A screen that looks like a painting: technology with warmth."
+    },
+    "image": "img/radar/trmnl-frame.webp",
+    "stamps": [
+      "ORIGINAL"
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "url": "https://fenceline.nitinsijwali.com/",
+    "title": "Fenceline",
+    "summary": {
+      "es": "Un arcade pixelado en el que trazas vallas para ganar terreno antes de que un pterodáctilo te alcance.",
+      "en": "A pixel arcade game where you draw fences to claim land before a pterodactyl gets you."
+    },
+    "note": {
+      "es": "Un arcade pixelado y gratuito para el navegador: trazas vallas sobre el terreno para quedarte con él antes de que un pterodáctilo choque contra tu línea. No hace falta registrarse y funciona sin conexión. Sencillo, rápido y muy vicioso.",
+      "en": "A free pixel arcade game in the browser: you draw fences across open ground to claim it before a pterodactyl hits your line. No login needed, and it works offline. Simple, quick and very addictive."
+    },
+    "image": "img/radar/fenceline.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://fenceline.nitinsijwali.com/"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "url": "https://wordflation.com",
+    "title": "Wordflation",
+    "summary": {
+      "es": "Un juego de palabras diario en el que cada letra que escribes encarece la siguiente.",
+      "en": "A daily word game where every letter you type makes the next one pricier."
+    },
+    "note": {
+      "es": "Un juego de palabras diario y gratuito: tienes que adivinar la cosa antes de que se acabe el tiempo, pero cada letra que escribes hace que la siguiente cueste más. Una vuelta de tuerca muy ingeniosa a los juegos de palabras de cada día.",
+      "en": "A free daily word game: name the thing before the clock runs out, but every letter you type makes the next one more expensive. A clever twist on the daily word game."
+    },
+    "image": "img/radar/wordflation.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://wordflation.com"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "url": "https://interestingengineering.com/innovation/3d-printed-hoverboard-prototype",
+    "title": "Halbach mini hoverboard",
+    "summary": {
+      "es": "Un aerodeslizador del tamaño de la palma de la mano, impreso en 3D, que levita sobre una placa de cobre con imanes girando.",
+      "en": "A palm-sized, 3D-printed hoverboard that levitates over a copper plate on spinning magnets."
+    },
+    "note": {
+      "es": "Jake Rogers ha construido en su garaje una tabla del tamaño de la palma de la mano y sin cables que levita. Lleva dos rotores impresos en 3D que giran en sentidos opuestos, cada uno con doce imanes de neodimio N52 en disposición Halbach, y las corrientes inducidas la elevan sobre una placa gruesa de cobre. Pasar de dieciséis a doce imanes por rotor redujo la fuerza centrífuga un 40 % aproximadamente. Aún necesita ayuda para mantenerse nivelada, y la versión grande para subirse, HALO-1, de momento es solo un plan. Regreso al futuro, versión de garaje.",
+      "en": "Jake Rogers built a palm-sized, untethered board that levitates, in his garage. Two counter-rotating 3D-printed rotors each carry twelve N52 neodymium magnets in a Halbach arrangement, and induced currents lift it over a thick copper plate. Going from sixteen to twelve magnets per rotor cut centrifugal force by about 40%. It still needs help to stay level, and a full-size ride-on version, HALO-1, is only planned for now. Back to the Future, garage edition."
+    },
+    "image": "img/radar/halbach-mini-hoverboard.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "url": "https://gitlab.com/snipedbywifi/terminactory",
+    "title": "Terminactory",
+    "summary": {
+      "es": "Un juego de fábricas tranquilo y pausado que se juega en la terminal, para matar el rato mientras trabajan tus agentes.",
+      "en": "A cozy idle factory game you play in the terminal, to pass the time while your agents work."
+    },
+    "note": {
+      "es": "Un juego de fábricas pausado que se juega dentro de la terminal, escrito en Rust con ratatui. Su autor lo plantea como algo para jugar «mientras esperas a que terminen las tareas largas de los agentes», y cuenta que los modelos de Claude le ayudaron a montar la base. El código está en GitLab y hay que compilarlo para jugar. La excusa perfecta para no mirar fijamente la barra de progreso.",
+      "en": "A cozy factory game played inside the terminal, written in Rust with ratatui. Its author pitches it as something to play \"while waiting for long agent tasks to finish\", and says Claude models helped build the base. The source is on GitLab and you build it yourself to play. The perfect excuse not to stare at the progress bar."
+    },
+    "image": "img/radar/terminactory.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "url": "https://hackaday.com/2026/11/15/printing-smooth-upper-surfaces-with-a-non-planar-slicer/",
+    "title": "PancakeSlicer",
+    "summary": {
+      "es": "Un laminador que imprime superficies superiores lisas, sin escalones, en una impresora 3D normal de 3 ejes.",
+      "en": "A slicer that prints smooth, stair-step-free top surfaces on an ordinary 3-axis 3D printer."
+    },
+    "note": {
+      "es": "Zimeng Xiong, de Alpaca Engineering, ha escrito PancakeSlicer para imprimir superficies superiores lisas, sin el típico escalonado, en una Bambu Lab A1 Mini de serie. Traza rayos hacia abajo a través de la pieza para encontrar las caras superiores, y su modo «conforme» apila una base plana, una transición deformada y capas de grosor constante que siguen la forma. La inclinación queda limitada por la holgura de la boquilla, y de momento se ha visto en vídeo. Capas no planas sin cambiar de máquina: muy ingenioso.",
+      "en": "Zimeng Xiong of Alpaca Engineering wrote PancakeSlicer to print smooth top surfaces, without the usual stair-stepping, on a stock Bambu Lab A1 Mini. It traces rays down through the part to find top surfaces, and its 'conformal' mode stacks a planar base, a morphed transition and constant-thickness layers that follow the shape. How steep it can go is limited by nozzle clearance, and so far it has been shown in a video. Non-planar layers without changing machines: very clever."
+    },
+    "image": "img/radar/pancakeslicer.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "url": "https://lastcomplication.com/",
+    "title": "The Last Complication",
+    "summary": {
+      "es": "Un puzle en el navegador al estilo Zachtronics en el que construyes mecanismos de reloj engranaje a engranaje.",
+      "en": "A Zachtronics-style browser puzzler where you build clock movements gear by gear."
+    },
+    "note": {
+      "es": "Un juego de puzles en el navegador, de Hunting Tooth Productions, en el que montas mecanismos de reloj engranaje a engranaje. Tiene un «libro de banco», contadores de latón y tamaño de las piezas y un panel de estadísticas para afinar tus soluciones. Relojería y puzles: una combinación preciosa.",
+      "en": "A browser puzzle game from Hunting Tooth Productions where you build clock movements gear by gear. It has a 'bench book', parts counters for brass and size, and a stats panel to fine-tune your solutions. Watchmaking and puzzles: a lovely combination."
+    },
+    "image": "img/radar/the-last-complication.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://lastcomplication.com/"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "url": "https://ductus.sorenblank.com",
+    "title": "Ductus",
+    "summary": {
+      "es": "Convierte tu letra en una fuente tipográfica, letra a letra y sin salir del navegador.",
+      "en": "Turns your handwriting into a font, letter by letter, without leaving the browser."
+    },
+    "note": {
+      "es": "Escribes cada letra una a una, empezando por la «a» minúscula (1 de 26), y al final puedes escribir con tu propia letra y exportar el archivo de la fuente. Según la web, todo se procesa en tu dispositivo y nunca se sube nada. En Hacker News cuentan que se tarda unos minutos, aunque todavía no hay tildes, símbolos, ligaduras ni letra cursiva, y hay algún fallo al exportar en Safari. Tener tu propia fuente en cinco minutos es un capricho estupendo.",
+      "en": "You write each letter one at a time, starting with a lowercase “a” (1 of 26), and then you can type in your own handwriting and export a font file. According to the site everything is checked on your device and never uploaded. Hacker News commenters say it takes a few minutes, though there are no accented letters, symbols, ligatures or cursive yet, and some Safari export bugs. Having your own font in a few minutes is a lovely treat."
+    },
+    "image": "img/radar/ductus.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "tool"
+    ],
+    "try": {
+      "label": {
+        "es": "Crea tu fuente →",
+        "en": "Make your font →"
+      },
+      "url": "https://ductus.sorenblank.com"
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "url": "https://fable52.games",
+    "title": "Fable52.games",
+    "summary": {
+      "es": "Un salón recreativo de más de 30 juegos para el navegador hechos por Claude Fable 5.2, casi todos con un solo prompt.",
+      "en": "An arcade of 30+ browser games made by Claude Fable 5.2, most from a single prompt."
+    },
+    "note": {
+      "es": "Una colección de juegos 2D y 3D para el navegador que, según la web, ha creado Claude Fable 5.2 de forma autónoma, la mayoría con un solo prompt y muchos en un único archivo .html. Puedes jugar a cada uno, leer al lado el prompt que lo generó y ver o descargar el código. Un escaparate curiosísimo de lo que ya sabe hacer una IA.",
+      "en": "A collection of 2D and 3D browser games that, per the site, Claude Fable 5.2 built autonomously, most from one prompt and many as a single .html file. You can play each one, read the prompt beside it, and inspect or download the source. A fascinating showcase of what an AI can already do."
+    },
+    "image": "img/radar/fable52-games.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://fable52.games"
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "url": "https://huggingface.co/n4ze3m/tiny-voca",
+    "title": "tiny-voca",
+    "summary": {
+      "es": "Un modelo de texto a voz en inglés diminuto (4,5 millones de parámetros) y totalmente abierto que funciona hasta en el navegador.",
+      "en": "A tiny (4.5M-parameter), fully open English text-to-speech model that even runs in the browser."
+    },
+    "note": {
+      "es": "Un modelo de texto a voz en inglés con solo 4,5 millones de parámetros (18,2 MB) y dos voces de inglés americano. Según su ficha va unas 70 veces más rápido que el tiempo real con cuatro hilos de CPU, y se entrenó desde cero en 7,7 horas con una sola RTX 4090. Código, pesos, receta de entrenamiento y dataset son abiertos, y hay una demo que corre en local en el navegador. Solo inglés, sin clonación de voz ni streaming. Pequeñito, abierto y rapidísimo: así da gusto.",
+      "en": "An English text-to-speech model with just 4.5 million parameters (18.2 MB) and two American English voices. According to its card it runs about 70x faster than real time on four CPU threads, and it was trained from scratch in 7.7 hours on a single RTX 4090. Code, weights, training recipe and dataset are all open, and a browser demo runs locally. English only, with no voice cloning or streaming. Tiny, open and fast: what's not to like."
+    },
+    "image": "img/radar/tiny-voca.webp",
+    "stamps": [
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      },
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "url": "https://monkeyisland.pages.dev/",
+    "title": "Monkey Island versions",
+    "summary": {
+      "es": "Una web de fans que pone lado a lado 8 ediciones (13 modos de vídeo) de The Secret of Monkey Island.",
+      "en": "A fan site that puts 8 editions (13 display modes) of The Secret of Monkey Island side by side."
+    },
+    "note": {
+      "es": "Una web hecha por fans que compara 12 escenas de The Secret of Monkey Island en 8 ediciones y 13 modos de vídeo, 156 pantallas todas encuadradas igual. Puedes cambiar de versión, hacer zoom a 1x, 2x o 4x, activar un efecto CRT ajustable y copiar un enlace a cualquier comparación. La han hecho dos hermanos con ayuda de IA. Pura nostalgia pirata, tratada con un mimo enorme.",
+      "en": "A fan-made site comparing 12 scenes of The Secret of Monkey Island across 8 editions and 13 display modes, 156 screens all framed the same way. You can swap versions, zoom 1x, 2x or 4x, turn on an adjustable CRT effect and copy a link to any comparison. Two brothers built it with help from AI. Pure pirate nostalgia, made with enormous care."
+    },
+    "image": "img/radar/monkey-island-versions.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      {
+        "es": "COMPLETÍSIMO",
+        "en": "LOADED"
+      }
+    ],
+    "tags": [
+      "game",
+      "idea"
+    ],
+    "try": {
+      "label": {
+        "es": "Compara versiones →",
+        "en": "Compare versions →"
+      },
+      "url": "https://monkeyisland.pages.dev/"
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "url": "https://github.com/serg5z/woodland-x11",
+    "title": "Woodland X11",
+    "summary": {
+      "es": "El núcleo completo de un servidor X11 funcionando en una pantalla táctil con ESP32-S3.",
+      "en": "A full core X11 server running on an ESP32-S3 touch panel."
+    },
+    "note": {
+      "es": "Sergey Zorin ha portado el núcleo de un servidor X11, con las 119 peticiones básicas y sin extensiones, a una pantalla táctil Elecrow CrowPanel Advance de 4,3 pulgadas (800x480) con ESP32-S3. El dedo hace de puntero, funcionan el desplazamiento con dos dedos y los toques, pero no hay teclado. En el README se ve ejecutando xclock por Wi-Fi. Es de código abierto y para una placa muy concreta. Ver X11 en un microcontrolador tiene un encanto especial.",
+      "en": "Sergey Zorin has ported a core X11 server, all 119 core requests and no extensions, to a 4.3-inch (800x480) Elecrow CrowPanel Advance touch panel with an ESP32-S3. Your finger is the pointer, two-finger scroll and tap work, but there's no keyboard input. The README shows it running xclock over Wi-Fi. It's open source and built for one specific board. Seeing X11 on a microcontroller has a special charm."
+    },
+    "image": "img/radar/woodland-x11.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
+    "title": "Palmfrets",
+    "summary": {
+      "es": "Un traste extra junto a la muñeca de la mano que puntea, para tocar notas con la palma de la mano.",
+      "en": "An extra fret near the picking hand's wrist, so you can play notes with your palm."
+    },
+    "note": {
+      "es": "Ben Ranson, guitarrista de Sandstone (Minnesota), ha inventado los palmfrets: uno o varios trastes extra cerca de la muñeca de la mano que puntea. Pisas la cuerda con el hueso pisiforme de la palma y la pulsas con el pulgar, así la otra mano queda libre para más notas. Lo patentó el 6 de octubre de 2026 y lo presentó en un concierto en Fergus Falls el 28 de octubre; de momento no se sabe si se venderá. Darle un trabajo nuevo a la mano que puntea es una idea muy original.",
+      "en": "Ben Ranson, a guitarist from Sandstone, Minnesota, invented palmfrets: one or more extra frets near the picking hand's wrist. You press a string with the pisiform bone in your palm and pluck it with your thumb, leaving the fretting hand free for other notes. He got a patent on 6 October 2026 and showed it at a reveal show in Fergus Falls on 28 October; there's no word yet on whether it will be sold. Giving the picking hand a whole new job is a really original idea."
+    },
+    "image": "img/radar/palmfrets.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "url": "https://grounds.top/",
+    "title": "Ground Stop Watch",
+    "summary": {
+      "es": "Un mapa en directo y reproducible de cómo se vació el cielo de EE. UU. durante el parón nacional de vuelos de la FAA.",
+      "en": "A live, replayable map of US skies emptying during the FAA's nationwide ground stop."
+    },
+    "note": {
+      "es": "Hecho al vuelo durante el parón nacional de vuelos que decretó la FAA el 13 de noviembre, este mapa muestra el tráfico aéreo de EE. UU. en directo y se puede reproducir. Compara los aviones en el aire con un viernes normal y enseña las salidas y el atasco acumulado en los grandes aeropuertos. Se publicó esa misma noche. Ver el cielo vaciarse impresiona.",
+      "en": "Built on the fly during the FAA's nationwide ground stop on 13 November, this map shows US air traffic live and can be replayed. It compares flights in the air with a normal Friday and shows departures and the backlog at major airports. It went up that same night. Watching the sky empty out is striking."
+    },
+    "image": "img/radar/ground-stop-watch.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ],
+    "try": {
+      "label": {
+        "es": "Ver el mapa →",
+        "en": "See the map →"
+      },
+      "url": "https://grounds.top/"
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "url": "https://isometricsf.com/",
+    "title": "Isometric SF",
+    "summary": {
+      "es": "Toda la bahía de San Francisco como un mapa isométrico de pixel art en el que puedes buscar cualquier dirección.",
+      "en": "The whole San Francisco Bay Area as an isometric pixel-art map you can search for any address."
+    },
+    "note": {
+      "es": "Un mapa isométrico de pixel art de toda la bahía de San Francisco: buscas un sitio, un pueblo o una dirección y puedes enviarle a alguien esa vista. Su autor cogió 1.300 millas cuadradas de las teselas 3D fotorrealistas de Google y las convirtió en un único mapa de píxeles, y lo explica en un artículo técnico en su web. Pasearse por él es como jugar a un SimCity de la vida real.",
+      "en": "An isometric pixel-art map of the whole Bay Area: search for a place, town or address and send someone that view. Its maker took 1,300 square miles of Google Photorealistic 3D Tiles and turned them into a single pixel map, with a technical write-up on his site. Wandering around it feels like playing a real-life SimCity."
+    },
+    "image": "img/radar/isometric-sf.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      }
+    ],
+    "tags": [
+      "idea"
+    ],
+    "try": {
+      "label": {
+        "es": "Explora el mapa →",
+        "en": "Explore the map →"
+      },
+      "url": "https://isometricsf.com/"
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "url": "https://github.com/leonardo-alegria/garlic-llm",
+    "title": "Garlic LLM",
+    "summary": {
+      "es": "Una app casera para PS4 que ejecuta el modelo Qwen3.5-9B sin conexión usando la GPU de la consola.",
+      "en": "A homebrew PS4 app that runs the Qwen3.5-9B model offline on the console's own GPU."
+    },
+    "note": {
+      "es": "Una app homebrew para PS4 que ejecuta Qwen3.5-9B en la GPU de la consola a 31-39 tokens por segundo con 16K de contexto, usando la cabeza MTP del modelo para decodificación especulativa. Además tiene chat por voz (Chatterbox), dictado (Parakeet TDT 0.6B v3) y ejecuta el MicroPython que escribe el propio modelo, todo sin que nada salga de la consola. Es una descarga gratuita, pero necesita una PS4 con jailbreak (GoldHEN); se ha probado en el firmware 11.52. Darle una segunda vida a una PS4 como servidor de IA es genial.",
+      "en": "A homebrew PS4 app that runs Qwen3.5-9B on the console's GPU at 31-39 tokens/s with 16K context, using the model's MTP head for speculative decoding. It also does voice chat (Chatterbox), dictation (Parakeet TDT 0.6B v3) and runs MicroPython the model writes, with nothing leaving the console. It's a free download, but it needs a jailbroken PS4 (GoldHEN); it was tested on firmware 11.52. Giving an old PS4 a second life as an AI box is brilliant."
+    },
+    "image": "img/radar/garlic-llm.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      {
+        "es": "COMPLETÍSIMO",
+        "en": "LOADED"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "url": "https://lidoli.itch.io/shadow-kanji-simulator",
+    "title": "Shadow Kanji Simulator",
+    "summary": {
+      "es": "Un puzle de navegador en el que dibujas la sombra de un kanji en lugar del propio kanji.",
+      "en": "A browser puzzle where you draw a kanji's shadow instead of the kanji itself."
+    },
+    "note": {
+      "es": "Un puzle gratuito para navegador con un giro curioso: no dibujas el carácter, sino su sombra, y el kanji aparece a partir de ella. Está en itch.io y en poco tiempo se ha colado en su lista de juegos web nuevos y populares. Una idea preciosa y diferente.",
+      "en": "A free browser puzzle with a curious twist: you don't draw the character, you draw its shadow, and the kanji appears from it. It's on itch.io and quickly made it onto its new-and-popular web games list. A lovely, different idea."
+    },
+    "image": "img/radar/shadow-kanji-simulator.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://lidoli.itch.io/shadow-kanji-simulator"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "url": "https://github.com/hyperionaidev/smolmaxxing",
+    "title": "smolmaxxing",
+    "summary": {
+      "es": "Un parche de llama.cpp para ejecutar modelos de lenguaje en cajas de TV, tabletas viejas y routers.",
+      "en": "A llama.cpp patch for running language models on TV boxes, old tablets and routers."
+    },
+    "note": {
+      "es": "Un parche para llama.cpp con kernels a medida, menos consumo de memoria y carga de pesos desde la flash, pensado para cajas de TV, tabletas viejas, placas y routers. Según su README, en una Xiaomi TV Box S (3.ª gen.) con 1 GB de RAM útil mueve Qwen3.5-2B a 7,7 tokens/s. En un iPad Air de 2013 con jailbreak saca Bonsai-1.7B a 24-26 tokens/s. Licencia MIT. Darle una segunda vida a cacharros olvidados con IA tiene mucho mérito.",
+      "en": "A llama.cpp patch with custom kernels, memory reductions and flash-based weight streaming, aimed at TV boxes, old tablets, single-board computers and routers. According to its README, on a Xiaomi TV Box S (3rd Gen) with about 1 GB usable RAM it runs Qwen3.5-2B at 7.7 tokens/s. On a jailbroken 2013 iPad Air it gets Bonsai-1.7B to 24-26 tokens/s. MIT licence. Giving forgotten gadgets a second life with AI is seriously impressive."
+    },
+    "image": "img/radar/smolmaxxing.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "url": "https://github.com/simpsoka/zigzag",
+    "title": "ZigZag",
+    "summary": {
+      "es": "Un editor de bordado gratuito para Mac y Windows que convierte SVG en puntadas y las manda a la máquina por Bluetooth.",
+      "en": "A free embroidery editor for Mac and Windows that turns SVGs into stitches and sends them to the machine over Bluetooth."
+    },
+    "note": {
+      "es": "Nació después de que una máquina de bordar de 300 $ pidiera una suscripción. ZigZag es un editor de bordado en Rust para Mac y Windows que convierte dibujos SVG en puntadas y exporta a PES, DST, EXP, JEF y VP3. Además envía los diseños a una Brother Skitch (PP1) por Bluetooth y trae soporte MCP, para que los agentes de IA también puedan editarlos. Un ejemplo perfecto de «si no existe, lo hago yo».",
+      "en": "It was written after a $300 embroidery machine asked for a subscription. ZigZag is a Rust embroidery editor for Mac and Windows that turns SVG art into stitches and exports PES, DST, EXP, JEF and VP3. It also sends designs to a Brother Skitch (PP1) over Bluetooth and has built-in MCP support, so AI agents can edit them too. A perfect example of 'if it doesn't exist, build it'."
+    },
+    "image": "img/radar/zigzag.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://hackaday.com/2026/11/09/determining-location-by-listening-for-airplanes/",
+    "title": "Doppler aircraft geolocation",
+    "summary": {
+      "es": "Una técnica para averiguar dónde se grabó un vídeo escuchando los aviones que pasan.",
+      "en": "A technique for working out where a video was filmed by listening to passing aircraft."
+    },
+    "note": {
+      "es": "Una técnica de [colsto] para saber dónde se grabó un vídeo a partir del sonido de los aviones. En un espectrograma se ven las curvas Doppler de los aviones, aunque no se lleguen a oír, y se comparan con las rutas de vuelo de los registros públicos ADS-B. Lo explica en un vídeo, sin cifras de precisión. Una idea de detective que sorprende por lo sencilla.",
+      "en": "A technique by [colsto] for working out where a video was filmed from the sound of aircraft. Planes' Doppler curves show up in a spectrogram even when you can't hear them, and they're matched against flight paths from public ADS-B records. He shows it in a video, with no accuracy figures. A detective trick that's surprisingly simple."
+    },
+    "image": "img/radar/doppler-aircraft-geolocation.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://av.github.io/safe-sand/",
+    "title": "Sand",
+    "summary": {
+      "es": "Un arenero hiperrealista en el navegador: empuja los granos con el dedo, inclina el móvil o agítalo.",
+      "en": "A hyper-realistic sandbox in the browser: push the grains with a finger, tilt your phone or shake it."
+    },
+    "note": {
+      "es": "Un simulador de arena en el navegador, hecho con WebGL2: empujas los granos con el dedo, inclinas el móvil para que resbalen o lo agitas para esparcirlos, con sonido y vibración. Funciona en móviles, tabletas y ordenadores. No es un juego con objetivos, es un juguete, y de los que enganchan. Relajante a más no poder.",
+      "en": "A sand simulator in the browser, built with WebGL2: push the grains with a finger, tilt your phone to make them slide or shake it to scatter them, with sound and haptics. It runs on phones, tablets and desktops. It's not a game with goals, it's a toy, and a very addictive one. Relaxing to the max."
+    },
+    "image": "img/radar/sand.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega con la arena (mejor en el móvil) →",
+        "en": "Play with the sand (best on a phone) →"
+      },
+      "url": "https://av.github.io/safe-sand/"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://pietromiotti.com/latest/maya-site/",
+    "title": "Maya site via AI agents",
+    "summary": {
+      "es": "Un aficionado puso a agentes de IA a rastrear datos lidar de la NASA y encontraron un yacimiento maya… ya cartografiado.",
+      "en": "An amateur set AI agents loose on NASA lidar data and they found a Maya site… that had already been mapped."
+    },
+    "note": {
+      "es": "Pietro Miotti, que dice no ser arqueólogo, puso a varios agentes de IA (Gemini, ChatGPT, Claude, Grok y otros 48 revisando imágenes) a escanear unos 1.200 km² de datos lidar públicos de la NASA. Marcaron una colina con lo que parecía una plaza, una pirámide y un patio, y él avisó al INAH de México, que le contestó que allí no había ningún yacimiento registrado. Después descubrió que ya aparecía en un estudio de 2025, así que, como él mismo dice, lo «redescubrieron». Es un post personal, no un artículo revisado, pero la aventura es fascinante.",
+      "en": "Pietro Miotti, who says he's not an archaeologist, had several AI agents (Gemini, ChatGPT, Claude, Grok and another 48 doing image review) scan about 1,200 km² of public NASA lidar data. They flagged a hilltop with what looked like a plaza, a pyramid and a courtyard, and he reported it to Mexico's INAH, which replied that no registered site existed there. Later he found it was already mapped in a 2025 study, so, in his words, the agents 'rediscovered it'. It's a personal blog post, not peer-reviewed, but the adventure is fascinating."
+    },
+    "image": "img/radar/maya-site-via-ai-agents.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+    "title": "GA100 voltage glitch",
+    "summary": {
+      "es": "Un ataque casero por voltaje convierte una tarjeta de minería CMP 170HX en lo que es, en la práctica, una A100 de 80 GB.",
+      "en": "A hobbyist voltage glitch turns a CMP 170HX mining card into what is effectively an 80 GB A100."
+    },
+    "note": {
+      "es": "Kate cuenta en su blog cómo atacó por inyección de fallos de voltaje el controlador de fusibles del chip GA100, con un glitcher basado en un STM32. Así convirtió una tarjeta de minería CMP 170HX de 8 GB en lo que en la práctica es una A100 de 80 GB, con 85,9 TFLOP/s en FP16 frente a los 72,5 de una A100 comercial. Los 80 GB funcionaron en cerca del 90 % de las tarjetas probadas, aunque hace falta modificar la placa y el glitch tardó entre 1 y 48 horas por tarjeta. Se avisó a NVIDIA antes de publicarlo. Hacking de hardware del bueno.",
+      "en": "Kate's blog describes how the author used voltage fault injection on the GA100 die's fuse controller, with an STM32-based glitcher. That turned a CMP 170HX 8 GB mining card into what is effectively an 80 GB A100, with 85.9 FP16 TFLOP/s against 72.5 for a retail A100. The 80 GB worked on about 90% of the author's cards, though it needs board modification and the glitching took 1 to 48 hours per card. NVIDIA was told before publication. Hardware hacking at its finest."
+    },
+    "image": "img/radar/ga100-voltage-glitch.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://hackaday.com/2026/11/11/a-lego-3d-printer/",
+    "title": "StudPrint",
+    "summary": {
+      "es": "Una impresora 3D que es un 92 % LEGO, husillos incluidos.",
+      "en": "A 3D printer that is 92% LEGO, right down to its leadscrews."
+    },
+    "note": {
+      "es": "Adam Turaj ha construido una impresora 3D cuyo chasis, cama y hasta sistema de movimiento son de LEGO, con husillos de LEGO moviendo los ejes. Hackaday calcula que es un 92 % LEGO, y los archivos CAD de las pocas piezas que no lo son están publicados como código abierto. No es rápida ni grande, y la cama de ladrillos de ABS sin calefacción limita los materiales, pero funciona. Un sueño de infancia hecho máquina.",
+      "en": "Adam Turaj built a 3D printer whose frame, bed and even motion system are LEGO, with LEGO leadscrews driving the axes. Hackaday puts it at 92% LEGO, and the CAD files for the few non-LEGO parts are open source. It isn't fast or large, and the unheated ABS-brick bed limits materials, but it works. A childhood dream turned into a machine."
+    },
+    "image": "img/radar/studprint.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://hackaday.io/project/207327-but-can-it-run-doom/",
+    "title": "DOOM on a coffee machine",
+    "summary": {
+      "es": "Alguien ha conseguido jugar a DOOM en la pantalla táctil de una cafetera de autoservicio.",
+      "en": "Someone got DOOM running on the touchscreen of a self-serve coffee machine."
+    },
+    "note": {
+      "es": "Robin M. ha conseguido que DOOM funcione en una Spengler PSL50, una cafetera de pago de autoservicio. Su módulo de pantalla táctil lleva dentro un ordenador con Linux para gestionar los pagos y los menús, y de ahí sale el truco. En Hackaday.io cuenta paso a paso cómo lo hizo. Un hack de aficionado sin más pretensión que la de siempre: ¿puede ejecutar DOOM? Pues sí.",
+      "en": "Robin M. got DOOM running on a Spengler PSL50, a pay-to-drink self-serve coffee machine. Its touchscreen module hides a Linux computer that handles payments and menus, and that's where the trick comes from. The write-up on Hackaday.io explains how it was done. A hobby hack with the usual question behind it: can it run DOOM? Yes, it can."
+    },
+    "image": "img/radar/doom-on-a-coffee-machine.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "game",
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://github.com/klad-app/klad",
+    "title": "Klad",
+    "summary": {
+      "es": "Una app de dibujo y animación 2D en la que pintas a la vez que tu agente de programación, en el mismo lienzo.",
+      "en": "A 2D paint and animation app where you and your coding agent draw on the same canvas."
+    },
+    "note": {
+      "es": "Tú pintas con el lápiz y tu agente de programación pinta a la vez desde la CLI de klad (stroke, fill, undo, export), con los mismos pinceles y sobre el mismo dibujo. Cada trazo se guarda como datos editables y no hay modelo de imagen detrás: es el agente el que decide qué dibujar. Tiene capas, línea de tiempo, huesos y exportación a Godot. La app es de código disponible (PolyForm Internal Use, gratis para particulares y empresas con menos de 500.000 € de facturación) y el formato, la CLI y las skills son MIT; de momento no hay instaladores y hay que compilarla. Dibujar a cuatro manos con una IA, qué idea tan bonita.",
+      "en": "You paint with a pen while your coding agent paints at the same time through the klad CLI (stroke, fill, undo, export), with the same brushes on the same drawing. Every stroke is stored as editable data and there's no image model: the agent decides what to draw. It has layers, a timeline, bones and Godot export. The app is source-available (PolyForm Internal Use, free for individuals and companies under €500,000 revenue) while the format, CLI and skills are MIT; there are no installers yet, so you build it from source. Drawing four-handed with an AI, what a lovely idea."
+    },
+    "image": "img/radar/klad.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "url": "https://termsheetplease.com/",
+    "title": "Term Sheet, Please",
+    "summary": {
+      "es": "Un juego al estilo Papers, Please en el que decides qué fundadores de YC reciben tu dinero.",
+      "en": "A Papers, Please-style game where you decide which YC founders get your money."
+    },
+    "note": {
+      "es": "Un juego de navegador de Bo Lau que coge la mecánica de Papers, Please y te sienta en la mesa de un inversor el día después del Demo Day de YC. Revisas las cuentas de los fundadores, cuestionas sus datos y decides si financias, pasas o esperas. Es gratis en el navegador. Una sátira muy fina del mundillo de las startups.",
+      "en": "A browser game by Bo Lau that borrows the Papers, Please formula and sits you at an investor's desk the day after YC Demo Day. You inspect founders' financials, question their records and decide whether to fund, pass or hold. It's free in the browser. A sharp satire of startup land."
+    },
+    "image": "img/radar/term-sheet-please.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://termsheetplease.com/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://www.ghanastreetgames.com/",
+    "title": "Ghana Street Games",
+    "summary": {
+      "es": "Un salón recreativo gratis en el navegador con 35 juegos callejeros de Ghana.",
+      "en": "A free browser arcade with 35 Ghanaian street games."
+    },
+    "note": {
+      "es": "Un salón recreativo en el navegador con 35 juegos de los que se juegan en la calle y en el patio en Ghana, como Four Corners, Laski, One Pole, Pilolo o Pampanaa, y hasta penaltis. Es gratis. Una forma preciosa de conocer los juegos de infancia de otro país.",
+      "en": "A browser arcade with 35 games played in the streets and playgrounds of Ghana, such as Four Corners, Laski, One Pole, Pilolo and Pampanaa, plus penalties. It's free. A lovely way to discover another country's childhood games."
+    },
+    "image": "img/radar/ghana-street-games.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://www.ghanastreetgames.com/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://meowdisplay.app/",
+    "title": "MeowDisplay",
+    "summary": {
+      "es": "Convierte un iPhone, un iPad, un Android u otro Mac en una pantalla más para tu Mac. Gratis y de código abierto.",
+      "en": "Turns an iPhone, iPad, Android device or another Mac into an extra display for your Mac. Free and open source."
+    },
+    "note": {
+      "es": "Convierte un iPhone, un iPad, un Android u otro Mac en una pantalla para tu Mac: puedes duplicarla, ampliar el escritorio y manejarla con el dedo, con las ventanas colocadas en paneles. Es gratis y de código abierto. La versión 2.0 de iOS ya está en la App Store con su app para Mac (macOS 14 o superior), y la de Android está en pruebas cerradas. Por fin una utilidad para ese iPad que coge polvo en el cajón.",
+      "en": "It turns an iPhone, iPad, Android device or another Mac into a display for your Mac: mirror it, extend your desktop and control it by touch, with windows arranged in panes. It's free and open source. iOS 2.0 is on the App Store with a Mac companion (macOS 14 or later), and Android is in closed testing. Finally a job for that iPad gathering dust in a drawer."
+    },
+    "image": "img/radar/meowdisplay.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://tinyvalencia.com/",
+    "title": "Tiny Valencia",
+    "summary": {
+      "es": "Toda la ciudad de Valencia convertida en un mapa isométrico de píxeles, como un SimCity, gratis en el navegador.",
+      "en": "The whole city of Valencia turned into an isometric pixel-art map, SimCity-style, free in the browser."
+    },
+    "note": {
+      "es": "Todo el término municipal de Valencia convertido en un mapa isométrico de pixel art, como si fuera un SimCity. Según su web, parte de datos 3D reales de la ciudad vistos desde una cámara isométrica fija, y un modelo de IA entrenado en un estilo pixel art elegido a mano lo repinta casilla a casilla. Tiene buscador, una tecla para saltar a un sitio al azar y minijuegos con monumentos, y está en castellano, valenciano e inglés. Gratis y sin anuncios. Dan ganas de perderse por sus calles.",
+      "en": "The whole Valencia municipality turned into an isometric pixel-art map, SimCity-style. Per the site, it starts from real 3D city data seen from a fixed isometric camera, then an AI model trained on a hand-picked pixel-art style repaints it tile by tile. It has search, a random-place key and small landmark games, and works in Spanish, Valencian and English. Free and ad-free. It makes you want to get lost in its streets."
+    },
+    "image": "img/radar/tiny-valencia.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "idea",
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Pasea por Valencia →",
+        "en": "Stroll around Valencia →"
+      },
+      "url": "https://tinyvalencia.com/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://github.com/Mew463/roboticcarcharger",
+    "title": "Robotic EV charger",
+    "summary": {
+      "es": "Un robot casero y muy bajito que enchufa solo un Tesla Model 3 y le abre la tapa de carga por la API del coche.",
+      "en": "A very low-profile homemade robot that plugs in a Tesla Model 3 by itself and opens its charge port through the car's API."
+    },
+    "note": {
+      "es": "El maker Mew463 se ha hecho un cargador robótico para su Tesla Model 3 que se queda casi todo debajo del coche mientras carga. Se sujeta con ventosas al panel de la toma y enchufa la manguera. Antes comprueba que el coche está en casa, aparcado y sin cargar, y entonces llama a la API del vehículo (Tessie) para desbloquear y abrir la tapa. El código está en GitHub. Un invento de garaje de lo más ingenioso.",
+      "en": "Maker Mew463 built a robotic charger for his Tesla Model 3 that sits mostly under the car while it charges. It braces itself with suction cups against the charge-port panel and plugs in. First it checks that the car is home, parked and not charging, then calls the vehicle API (Tessie) to unlock and open the port. The code is on GitHub. A wonderfully clever garage invention."
+    },
+    "image": "img/radar/robotic-ev-charger.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://chimera-vocal-synth.vercel.app/",
+    "title": "CHIMERA",
+    "summary": {
+      "es": "Un sintetizador de voz en el navegador donde cada sonido sale de unas vías respiratorias simuladas.",
+      "en": "A browser voice synth where every sound comes from a simulated airway."
+    },
+    "note": {
+      "es": "Un sintetizador de voz con modelado físico que funciona en el navegador. En lugar de reproducir grabaciones, cada sonido sale de unas vías respiratorias simuladas. Una forma rarísima y fascinante de jugar con la voz.",
+      "en": "A physically modelled voice synthesizer that runs in the browser. Instead of playing back recordings, every sound comes from a simulated airway. A wonderfully strange way to play with a voice."
+    },
+    "image": "img/radar/chimera.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ],
+    "try": {
+      "label": {
+        "es": "Pruébalo →",
+        "en": "Try it →"
+      },
+      "url": "https://chimera-vocal-synth.vercel.app/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://www.core77.com/posts/145866/An-Industrial-Designers-Brilliant-Invention-for-Dim-Restaurants",
+    "title": "Loupe Light",
+    "summary": {
+      "es": "Concepto de lámpara de mesa cuyos anillos se levantan y se convierten en lupas iluminadas para leer la carta.",
+      "en": "A concept table lamp whose rings lift off and become lit magnifiers for reading the menu."
+    },
+    "note": {
+      "es": "El diseñador industrial Andrew Ferrier (MK-11 Studio) propone una lámpara de mesa sin cables, con carga inductiva, hecha de anillos de luz magnéticos apilados. Si levantas cualquiera de ellos, se convierte en una lupa iluminada para leer la carta en restaurantes con poca luz, sin tirar de la linterna del móvil. Por ahora es solo un concepto y el diseñador busca marcas y grupos de restauración que quieran fabricarla. Un detalle pequeño que resuelve un problema de verdad.",
+      "en": "Industrial designer Andrew Ferrier (MK-11 Studio) proposes a cordless, inductively charged table lamp made of stacked magnetic light rings. Lift any ring off and it becomes a lit magnifier for reading the menu in dim restaurants, no phone torch needed. For now it's only a concept, and the designer is inviting brands and restaurant groups to build it. A small touch that solves a real problem."
+    },
+    "image": "img/radar/loupe-light.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "url": "https://someonewashere.app/",
+    "title": "Someone Was Here",
+    "summary": {
+      "es": "Una app para Mac que fotografía a quien use tu ordenador mientras no estás y te avisa en el iPhone.",
+      "en": "A Mac app that photographs whoever uses your computer while you're away and alerts you on your iPhone."
+    },
+    "note": {
+      "es": "Una app para Mac que hace una foto a quien use tu ordenador cuando lleva un rato inactivo, intente pasar la pantalla de bloqueo o lo desbloquee. Te manda la foto, la hora y cómo entró a una app gratuita para iPhone. Aprende tu cara durante la configuración y revisa las fotos en el propio Mac, así que no salta cuando eres tú. Es gratis en la Mac App Store y pide macOS 14 o superior. Ideal para pillar al compañero cotilla.",
+      "en": "A Mac app that takes a photo of anyone who uses your computer after it's been idle, tries the lock screen or unlocks it. It sends the photo, the time and how they got in to a free iPhone app. It learns your face during setup and checks photos on the Mac itself, so it stays quiet when it's you. It's free on the Mac App Store and needs macOS 14 or later. Perfect for catching the nosy colleague."
+    },
+    "image": "img/radar/someone-was-here.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "url": "https://hackaday.com/2026/11/09/web-satellite-tracker-plays-the-music-of-the-spheres/",
+    "title": "OrbitalWiki Listen",
+    "summary": {
+      "es": "Convierte los satélites que pasan sobre tu cabeza en música: una nota por cada uno cuando llega a lo más alto.",
+      "en": "Turns the satellites passing overhead into music: one note for each as it reaches its highest point."
+    },
+    "note": {
+      "es": "OrbitalWiki sigue unos 17.000 satélites y su nueva función los convierte en música. Con tu ubicación aproximada calcula cuáles te pasan por encima y toca una nota cuando cada uno llega a su punto más alto. El instrumento y la octava dependen de la órbita de cada satélite, así que sale un paisaje sonoro ambiental y pausado. La música de las esferas, versión siglo XXI.",
+      "en": "OrbitalWiki tracks around 17,000 satellites and its new feature turns them into music. From your approximate location it works out which ones are overhead and plays a note as each reaches its highest point. The instrument and octave depend on each satellite's orbit, giving a slow ambient soundscape. The music of the spheres, 21st-century edition."
+    },
+    "image": "img/radar/orbitalwiki-listen.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "url": "https://www.watched.earth",
+    "title": "watched.earth",
+    "summary": {
+      "es": "Escribe un sitio y te dice qué satélites han pasado por encima en los últimos 7 días, con las fotos que tomaron.",
+      "en": "Type a place and it shows which satellites passed over it in the last 7 days, with the photos they took."
+    },
+    "note": {
+      "es": "Escribes un lugar y te muestra todos los satélites que han pasado por encima en los últimos 7 días, junto a las imágenes de Sentinel-2, Landsat o la NASA de esas pasadas. Calcula las órbitas en tu propio navegador sobre el catálogo de CelesTrak, con más de 17.000 objetos, en cosa de medio segundo. Su autor lo hizo en un fin de semana porque se aburría, y hasta corrige los desfases de 5 a 10 minutos de las marcas de tiempo de Sentinel-2. Da un poco de vértigo ver cuántos ojos pasan por encima de tu casa.",
+      "en": "You type a place and it shows every satellite that passed over it in the last 7 days, along with the Sentinel-2, Landsat or NASA images from those passes. It computes the orbits in your own browser from the CelesTrak catalogue, more than 17,000 objects, in about half a second. Its maker built it over a weekend out of boredom, and it even corrects the 5-10 minute offsets in Sentinel-2 timestamps. It's a little dizzying to see how many eyes pass over your home."
+    },
+    "image": "img/radar/watched-earth.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      }
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ],
+    "try": {
+      "label": {
+        "es": "Pruébalo →",
+        "en": "Try it →"
+      },
+      "url": "https://www.watched.earth"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "url": "https://hackaday.com/2026/11/09/you-wouldnt-download-a-car/",
+    "title": "3D-printed PETG car",
+    "summary": {
+      "es": "Un aficionado imprime en 3D la carrocería de un coche eléctrico descapotable sobre la mecánica de un Nissan Leaf.",
+      "en": "A hobbyist 3D-prints the body of an open-top electric car on Nissan Leaf mechanicals."
+    },
+    "note": {
+      "es": "Kevin Kuehn ha hecho un coche descapotable con la carrocería impresa en PETG: 600 piezas pequeñas unidas por termofijación y acabadas en fibra de carbono, sobre la mecánica de un Nissan Leaf. Según Hackaday, se puede conducir y está homologado para circular en California. El software de laminado que usó, Section3D, está en GitHub. Para los que decían que nunca te descargarías un coche.",
+      "en": "Kevin Kuehn built an open-top car with a body printed in PETG: 600 small parts joined by heat-staking and finished with carbon fibre, sitting on Nissan Leaf mechanicals. According to Hackaday it's drivable and road legal in California. The slicing software he used, Section3D, is on GitHub. So much for “you wouldn't download a car”."
+    },
+    "image": "img/radar/3d-printed-petg-car.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "url": "https://wherewerewe.app/",
+    "title": "Where Were We",
+    "summary": {
+      "es": "Un juego de adivinar dónde y cuándo se hicieron las fotos… pero con las de tu propio carrete.",
+      "en": "A guess-where-and-when photo game… played with your own camera roll."
+    },
+    "note": {
+      "es": "Un juego de adivinar dónde y cuándo se hizo cada foto, pero con las fotos de tu propio carrete. Ojo: cualquiera con el enlace puede ver las fotos y sus ubicaciones, y las partidas se borran solas a los 30 días. Ideal para jugar con quien estuvo contigo en esos viajes.",
+      "en": "A game of guessing where and when each photo was taken, but with the pictures from your own camera roll. Note that anyone with the link can see the photos and their locations, and rolls delete themselves after 30 days. Perfect for playing with whoever was on those trips with you."
+    },
+    "image": "img/radar/where-were-we.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://wherewerewe.app/"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "url": "https://eyesrhythm.com/",
+    "title": "EyesRhythm",
+    "summary": {
+      "es": "Una app gratuita para Mac y Windows que mide con la webcam cuánto parpadeas mientras trabajas.",
+      "en": "A free Mac and Windows app that uses your webcam to measure how much you blink while you work."
+    },
+    "note": {
+      "es": "Una app de escritorio gratuita para Mac y Windows que, con la webcam, puntúa cada cuánto y con qué regularidad parpadeas delante de la pantalla. Trae además un dial, «Poise», que vigila si mueves el cuello girando la cabeza. No pide cuenta y su autor dice que funciona sin conexión. No es consejo médico, pero sí un buen recordatorio de que los ojos también se cansan.",
+      "en": "A free desktop app for Mac and Windows that uses your webcam to score how often and how steadily you blink in front of the screen. It also has a 'Poise' dial that checks whether you move your neck by turning your head. No account needed, and its maker says it works offline. Not medical advice, but a good reminder that your eyes get tired too."
+    },
+    "image": "img/radar/eyesrhythm.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "url": "https://wordspies.com/",
+    "title": "Word Spies",
+    "summary": {
+      "es": "Un juego de espías y palabras al estilo Codenames, en el navegador, contra amigos, modelos de IA o ambos.",
+      "en": "A Codenames-style word spy game in the browser, against friends, AI models or both."
+    },
+    "note": {
+      "es": "Un juego gratuito de espías y asociación de palabras sobre una cuadrícula de 25, al estilo Codenames, que se juega en el navegador. Cualquier puesto puede ocuparlo una persona o un modelo de IA, así que puedes jugar con amigos, con compañeros IA o mezclarlos. Tras cada pista te dice lo buena que ha sido y cuánto han cambiado tus opciones de ganar, y además hay puzle diario y una arena de IA. Sin cuenta. Una manera muy divertida de comprobar si una máquina pilla tus pistas.",
+      "en": "A free word-association spy game on a 25-word grid, Codenames-style, played in the browser. Any seat can be a person or an AI model, so you can play with friends, with AI teammates or mix them. After each clue it tells you how good it was and how much your chances of winning changed, and there's also a daily puzzle and an AI arena. No account. A really fun way to find out whether a machine gets your clues."
+    },
+    "image": "img/radar/word-spies.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://wordspies.com/"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods/",
+    "title": "MousePods",
+    "summary": {
+      "es": "Lee el seguimiento de cabeza de unos AirPods 3 o AirPods Pro 2 en Linux para usarlo en simuladores de vuelo y carreras.",
+      "en": "Reads head-tracking data from AirPods 3 or AirPods Pro 2 on Linux, ready for flight and racing sims."
+    },
+    "note": {
+      "es": "Un proyecto aficionado que ha conseguido leer los sensores de movimiento de los AirPods 3 desde Linux, algo que hasta ahora nadie había logrado. La clave, según Hackaday, fue subir el MTU de Linux para igualar el valor por defecto, más grande, de iOS. Esos datos se pueden mandar a opentrack para mover la cámara en simuladores de vuelo y de carreras, y su autor usó Claude Code para lanzar cientos de pruebas. Algunas funciones aún son experimentales. Ingeniería inversa de la buena.",
+      "en": "A hobby project that managed to read the motion sensors of AirPods 3 from Linux, previously a blind spot. The key, per Hackaday, was raising the Linux MTU to match iOS's larger default. The data can feed opentrack to steer the camera in flight and racing sims, and the author used Claude Code to run hundreds of probes. Some features are still experimental. Reverse engineering at its best."
+    },
+    "image": "img/radar/mousepods.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "url": "https://nfsu2.xyz/",
+    "title": "NFSU2 in the browser",
+    "summary": {
+      "es": "Need for Speed: Underground 2 en el navegador, con conducción libre y carreras online con amigos.",
+      "en": "Need for Speed: Underground 2 in the browser, with free roam and online races with friends."
+    },
+    "note": {
+      "es": "El Need for Speed: Underground 2 de 2004, recompilado para jugar en Chrome y Firefox, con conducción libre y carreras online con tus amigos. Se basa en NFSU2Recomp, un proyecto con licencia MIT, y según la web es gratis y sin ventajas de pago. La web no dice que haga falta tener el juego y en Hacker News hay quien duda de las licencias, así que puede que no dure mucho. Pura nostalgia a un clic.",
+      "en": "The 2004 Need for Speed: Underground 2, recompiled to run in Chrome and Firefox, with free roam and online races with your friends. It's built on NFSU2Recomp, an MIT-licensed project, and according to the site it's free with no paid perks. The site doesn't say you need to own the game and some Hacker News commenters question the licensing, so it may not be around for long. Pure nostalgia, one click away."
+    },
+    "image": "img/radar/nfsu2-in-the-browser.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://nfsu2.xyz/"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "url": "https://hackaday.com/2026/11/05/stunning-volumetric-3d-display-goes-for-a-spin/",
+    "title": "Vortex",
+    "summary": {
+      "es": "Una pantalla volumétrica casera: dos paneles LED girando a toda velocidad dibujan una imagen 3D que se ve desde cualquier ángulo.",
+      "en": "A homemade volumetric display: two LED panels spinning at speed draw a 3D image you can see from any angle."
+    },
+    "note": {
+      "es": "Dos paneles LED pegados espalda con espalda giran a toda velocidad y forman una imagen en 3D de verdad que se ve desde cualquier ángulo. Lo mueve una Raspberry Pi 4 y todo va dentro de una pantalla de lámpara con forma de globo. Su autor, AncientJames, ha publicado en GitHub el software, un simulador y el CAD. Parece sacado de una película de ciencia ficción.",
+      "en": "Two LED panels mounted back to back spin at speed and form a true 3D image you can view from any angle. It's driven by a Raspberry Pi 4 and sits inside a globe lampshade. Its maker, AncientJames, has put the software, a simulator and the CAD on GitHub. It looks like something out of a sci-fi film."
+    },
+    "image": "img/radar/vortex.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "url": "https://hackaday.com/2026/11/05/reviving-google-cardboard-without-google-or-cardboard/",
+    "title": "CardboardXR",
+    "summary": {
+      "es": "Unas gafas impresas en 3D que convierten tu móvil en un visor con 6DOF, passthrough y seguimiento de manos.",
+      "en": "A 3D-printed headset that turns your phone into a viewer with 6DOF, passthrough and hand tracking."
+    },
+    "note": {
+      "es": "El desarrollador brenpoly resucita la idea de Google Cardboard con unas gafas impresas en 3D, ópticas ajustables y software en Unity. El móvil lo pone todo: pantalla, seguimiento 6DOF, passthrough con la cámara, seguimiento de manos y gestos. Lo ha probado en un Pixel 9 Pro y un iPhone 15 Pro, y lo de los «5 $» da por hecho que ya tienes un móvil de gama alta. Es un prototipo que funciona, de código abierto y con el código en GitHub. Realidad mixta casi gratis con lo que llevas en el bolsillo.",
+      "en": "Developer brenpoly revives the Google Cardboard idea with a 3D-printed headset, adjustable optics and Unity software. The phone does all the work: display, 6DOF tracking, camera passthrough, hand tracking and gestures. It's been tested on a Pixel 9 Pro and an iPhone 15 Pro, and the “$5” assumes you already own a flagship phone. It's a working, open-source prototype with the code on GitHub. Mixed reality for almost nothing, using what's already in your pocket."
+    },
+    "image": "img/radar/cardboardxr.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "url": "https://uncracked.city",
+    "title": "Uncracked City",
+    "summary": {
+      "es": "Un juego de detectives en lugares de ciudades reales donde los sospechosos mienten y tienes que pillarlos.",
+      "en": "A detective game set in real-city locations where the suspects lie and you have to catch them."
+    },
+    "note": {
+      "es": "Un juego de detectives en el que buscas lugares de ciudades reales, interrogas a los sospechosos, los pillas en sus mentiras y presentas tu informe. Según el anuncio en Hacker News, los sospechosos son modelos de lenguaje. Ya está en Android (Google Play) y la versión de iOS está en camino. Un giro muy fresco al clásico de investigar.",
+      "en": "A detective game where you search real-city locations, question suspects, catch them in their lies and file your report. According to its Hacker News launch, the suspects are language models. It's out on Android (Google Play), with iOS on the way. A fresh twist on the classic whodunnit."
+    },
+    "image": "img/radar/uncracked-city.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "game"
+    ]
+  },
+  {
     "date": "2026-11-04",
     "url": "https://neufangled.com/",
     "title": "Stringman",
-    "summary": { "es": "Un robot de cables que cuelga una pinza de las esquinas del techo y la mueve por toda la habitación con solo cuatro motores.", "en": "A cable robot that hangs a gripper from the ceiling corners and moves it around the whole room with just four motors." },
+    "summary": {
+      "es": "Un robot de cables que cuelga una pinza de las esquinas del techo y la mueve por toda la habitación con solo cuatro motores.",
+      "en": "A cable robot that hangs a gripper from the ceiling corners and moves it around the whole room with just four motors."
+    },
     "note": {
       "es": "En vez de un brazo robótico caro con alcance de medio metro, cuelga una pinza de cuatro cables anclados en las esquinas del techo y la pasea por toda la habitación con solo cuatro motores. Al trabajar desde arriba llega a suelos llenos de trastos donde no entra ningún robot con ruedas. Es de código abierto (CAD, placas y software publicados, con certificación OSHWA) y funciona sin salir de tu red. Según su web cuesta 795 $, carga hasta 2,2 kg cerca del suelo y vale para habitaciones de 3 a 10 m. Una idea tan sencilla como ingeniosa.",
       "en": "Instead of an expensive robot arm with half a metre of reach, it hangs a gripper from four lines anchored in the ceiling corners and moves it around the whole room with just four motors. Working from above, it reaches cluttered floors no wheeled robot can get to. It's open source (CAD, PCBs and software published, OSHWA certified) and runs without leaving your network. According to the maker it costs $795, lifts up to 2.2 kg near the floor and works in rooms 3 to 10 m across. As simple as it is clever."
     },
     "image": "img/radar/stringman.png",
-    "stamps": [{ "es": "INGENIOSO", "en": "CLEVER" }, { "es": "CÓDIGO ABIERTO", "en": "OPEN SOURCE" }],
-    "tags": ["tool"]
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "url": "https://hjkl.duy.run",
+    "title": "hjkl",
+    "summary": {
+      "es": "Un juego gratis en el navegador para aprender Vim a base de pequeños retos de edición en un Vim de verdad.",
+      "en": "A free browser game for learning Vim through short editing challenges in a real Vim editor."
+    },
+    "note": {
+      "es": "Un juego para aprender Vim practicando en un Vim de verdad, no leyendo chuletas. Va por habilidades (movimientos, objetos de texto, búsqueda, marcas, contadores y repeticiones) y cada una tiene seis ediciones: dos guiadas, dos con pista y dos por tu cuenta. Es gratis, sin cuenta y no guarda nada, aunque necesitas un ordenador con teclado físico. La forma más amable de dejar de pelearte con Vim.",
+      "en": "A game for learning Vim by practising in a real Vim editor, not reading cheat sheets. It goes skill by skill (motions, text objects, search, marks, counts and repeats) and each skill has six edits: two guided, two prompted and two on your own. It's free, needs no account and stores nothing, though you'll need a desktop with a physical keyboard. The friendliest way to stop fighting Vim."
+    },
+    "image": "img/radar/hjkl.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game",
+      "tool"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://hjkl.duy.run"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "title": "Warsaw in voxels",
+    "summary": {
+      "es": "Un mapa 3D interactivo del centro de Varsovia hecho de vóxeles, en el navegador.",
+      "en": "An interactive 3D map of central Warsaw made of voxels, in the browser."
+    },
+    "note": {
+      "es": "Un mapa 3D interactivo del centro de Varsovia, todo hecho de cubitos al estilo vóxel, que se abre en el navegador. Cuando lo miramos solo mostraba un mensaje de carga, así que no hemos podido confirmar cómo funciona. Aun así, la idea de recorrer una ciudad entera convertida en bloques tiene mucho encanto.",
+      "en": "An interactive 3D map of central Warsaw, built from voxel-style cubes, that opens in the browser. When we checked it only showed a loading message, so we couldn't confirm how it works. Still, the idea of exploring a whole city turned into blocks is charming."
+    },
+    "image": "img/radar/warsaw-in-voxels.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "url": "https://hackerbooks.org",
+    "title": "HackerBooks",
+    "summary": {
+      "es": "Todos los libros que se recomiendan en los comentarios de Hacker News, con buscador y rankings.",
+      "en": "Every book recommended in Hacker News comments, with search and rankings."
+    },
+    "note": {
+      "es": "Recoge los libros que salen en los comentarios de Hacker News y los ordena: los más mencionados de siempre, los más recomendados, los que están subiendo y las tendencias. Los comentarios vienen de un dataset abierto de Hacker News y los datos de cada libro, de Open Library. Los enlaces de compra (Bookshop.org y Amazon) son de afiliado, y no tiene relación oficial con HN. Una lista de lecturas hecha por miles de personas curiosas.",
+      "en": "It gathers the books mentioned in Hacker News comments and ranks them: top of all time, most recommended, rising and trends. The comments come from an open Hacker News dataset and the book data from Open Library. Buy links (Bookshop.org and Amazon) are affiliate links, and it isn't affiliated with HN. A reading list put together by thousands of curious people."
+    },
+    "image": "img/radar/hackerbooks.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ],
+    "try": {
+      "label": {
+        "es": "Busca tu próximo libro →",
+        "en": "Find your next book →"
+      },
+      "url": "https://hackerbooks.org"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "url": "https://github.com/kerlenton/bootgpt",
+    "title": "bootgpt",
+    "summary": {
+      "es": "Una red neuronal diminuta que arranca desde el sector de arranque de un PC y se inventa un log de Linux, sin sistema operativo.",
+      "en": "A tiny neural net that starts from a PC boot sector and makes up a Linux boot log, with no operating system."
+    },
+    "note": {
+      "es": "Un sector de arranque de 512 bytes escrito a mano en ensamblador carga un modelo de caracteres de 11,5 KB en int8 desde los 23 sectores siguientes. Con eso genera un log de arranque de Linux falso en modo real de 16 bits sobre un 386, sin sistema operativo de por medio. Se compila con nasm, qemu y Python con numpy, y tiene licencia MIT. El propio README admite que el resultado sale tosco y que no muestra pruebas en hardware real. Una locura deliciosa de las que solo se hacen por el gusto de hacerlas.",
+      "en": "A 512-byte hand-written assembly boot sector loads an 11.5 KB int8 character-level model from the next 23 sectors. With that it generates a fake Linux boot log in 16-bit real mode on a 386, with no operating system involved. It builds with nasm, qemu and Python with numpy, and it's MIT licensed. The README itself admits the output is rough and shows no real-hardware results. A delightful bit of madness, done purely for the joy of it."
+    },
+    "image": "img/radar/bootgpt.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "url": "https://karpathy.bearblog.dev/hacker-tube/",
+    "title": "HackerTube",
+    "summary": {
+      "es": "Un YouTube hecho solo con los vídeos que la gente recomienda en los comentarios de Hacker News.",
+      "en": "A YouTube made only of the videos people recommend in Hacker News comments."
+    },
+    "note": {
+      "es": "Andrej Karpathy ha montado una interfaz al estilo YouTube con 6.454 vídeos recomendados en comentarios de Hacker News entre 2007 y 2026, repartidos en 150 temas y filtrados de unos 40.000 comentarios. Tiene una sección «ForYou» que funciona sin cuenta, guardando el estado en la sesión del navegador, y puedes descargarte los datos. Según cuenta, lo hizo en unas dos horas con Claude Code y ya está en marcha en hackertube.org. Una mina de vídeos buenos para perderse una tarde.",
+      "en": "Andrej Karpathy built a YouTube-style interface over 6,454 videos recommended in Hacker News comments from 2007 to 2026, across 150 topics, narrowed down from about 40,000 comments. A no-account “ForYou” feature keeps its state in your browser session, and you can export the data. He says it took about two hours with Claude Code, and it's live at hackertube.org. A goldmine of great videos to get lost in for an afternoon."
+    },
+    "image": "img/radar/hackertube.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      },
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "url": "https://github.com/nightly-labs/openbot",
+    "title": "OpenBot",
+    "summary": {
+      "es": "Un escritorio local donde Codex, Claude, Grok y otros agentes de terminal tienen cada uno su espacio, su cola de tareas y su chat.",
+      "en": "A local desktop workspace where Codex, Claude, Grok and other agent CLIs each get their own space, task queue and messaging."
+    },
+    "note": {
+      "es": "Un espacio de trabajo de escritorio, local, para tener agentes de terminal funcionando de forma persistente. Codex, Claude, Grok y compañía tienen cada uno su propio espacio y su cola de tareas, y pueden mandarse mensajes entre ellos. Ojo: es una versión preliminar, los agentes tienen acceso total a archivos, comandos, red y navegador sin pedir confirmación, y la licencia es PolyForm Noncommercial (hasta la 0.1.11 era Apache-2.0). Ver a los agentes hablando entre sí tiene algo de fascinante.",
+      "en": "A local desktop workspace for keeping agent CLIs running persistently. Codex, Claude, Grok and friends each get their own workspace and task queue, and they can message one another. Heads up: it's a development preview, agents get full access to files, commands, network and browser with no per-action confirmation, and the licence is PolyForm Noncommercial (up to 0.1.11 it was Apache-2.0). Watching agents talk to each other is oddly fascinating."
+    },
+    "image": "img/radar/openbot.webp",
+    "stamps": [
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "url": "https://github.com/JetBrains/thinkrail",
+    "title": "ThinkRail",
+    "summary": {
+      "es": "Un IDE para agentes de la incubadora de JetBrains: cada chat trabaja en su propio worktree de git.",
+      "en": "An agent IDE from the JetBrains incubator: every chat works in its own git worktree."
+    },
+    "note": {
+      "es": "Un IDE de la incubadora de JetBrains montado alrededor del agente de programación pi. Cada conversación con el agente corre en su propio espacio aislado con worktrees de git, y el conocimiento del proyecto se guarda en archivos SPEC.md y en skills reutilizables. Es de código abierto (Apache-2.0) y tiene versiones de escritorio para macOS 14 o superior, Windows x64 y Linux; eso sí, todavía está en sus primeras versiones. Una forma muy ordenada de trabajar con agentes.",
+      "en": "An IDE from the JetBrains incubator built around the pi coding agent. Each agent chat runs in its own isolated workspace on a git worktree, and project knowledge lives in SPEC.md files and reusable skills. It's open source (Apache-2.0) with desktop builds for macOS 14+, Windows x64 and Linux, though it's still in its early versions. A very tidy way to work with agents."
+    },
+    "image": "img/radar/thinkrail.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
   },
   {
     "date": "2026-10-25",
     "url": "https://edjefferson.com/localwiki/",
     "title": "Local Wikipedia",
-    "summary": { "es": "Wikipedia, pero solo con lo que tienes a media hora andando: descubre la historia escondida de tu barrio.", "en": "Wikipedia, but only for things within a half-hour walk: discover the hidden stories of your neighbourhood." },
+    "summary": {
+      "es": "Wikipedia, pero solo con lo que tienes a media hora andando: descubre la historia escondida de tu barrio.",
+      "en": "Wikipedia, but only for things within a half-hour walk: discover the hidden stories of your neighbourhood."
+    },
     "note": {
       "es": "Wikipedia, pero solo con lo que tienes a media hora andando. Escribes tu barrio o le das tu ubicación y te enseña los artículos geolocalizados de alrededor: esa iglesia, ese puente, esa calle por la que pasas cada día sin saber su historia. Tu ubicación no sale del navegador. Una forma preciosa de redescubrir tu propia ciudad.",
       "en": "Wikipedia, but only for things within a half-hour walk. Type your neighbourhood or share your location and it shows the geotagged articles around you: that church, that bridge, that street you walk down every day without knowing its story. Your location never leaves the browser. A lovely way to rediscover your own town."
     },
     "image": "img/radar/localwiki.png",
-    "stamps": ["ORIGINAL", { "es": "CURIOSO", "en": "CURIOUS" }],
-    "tags": ["idea"],
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ],
     "try": {
-      "label": { "es": "Descubre qué hay a tu alrededor (pulsa «Use my location») →", "en": "Discover what's around you (tap “Use my location”) →" },
+      "label": {
+        "es": "Descubre qué hay a tu alrededor (pulsa «Use my location») →",
+        "en": "Discover what's around you (tap “Use my location”) →"
+      },
       "url": "https://edjefferson.com/localwiki/"
     }
+  },
+  {
+    "date": "2026-10-25",
+    "url": "https://corgi.computer/",
+    "title": "Corgi",
+    "summary": {
+      "es": "Un multiplexor de terminal «para humanos (y agentes)»: vigila a tus agentes de código y te avisa cuando te necesitan.",
+      "en": "A terminal multiplexer \"for humans (and agents)\": it keeps an eye on your coding agents and flags when they need you."
+    },
+    "note": {
+      "es": "Un multiplexor de terminal al estilo tmux, pero pensado para convivir con agentes de código como Claude Code o Codex. Te enseña el estado de cada uno (trabajando, te necesita, terminado o parado) y, como tmux, los deja corriendo en segundo plano. Además organiza los espacios de trabajo con worktrees, te deja ver qué archivos ha tocado cada agente y lleva la cuenta de los tokens, como un `top`. Funciona en macOS, Linux y WSL. Justo lo que pide quien tiene media docena de agentes abiertos a la vez.",
+      "en": "A tmux-style terminal multiplexer built to live alongside coding agents like Claude Code or Codex. It shows each one's status (working, needs you, finished or idle) and, like tmux, keeps them running in the background. It also organises workspaces with worktrees, lets you see which files each agent touched, and tracks tokens like a `top`. It runs on macOS, Linux and WSL. Exactly what you want when half a dozen agents are open at once."
+    },
+    "image": "img/radar/corgi.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "COMPLETÍSIMO",
+        "en": "LOADED"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-10-25",
+    "url": "https://github.com/dsmurrell/onkey",
+    "title": "OnKey",
+    "summary": {
+      "es": "Un entrenador de canto para Mac: pones tu canción en Spotify o Apple Music y te puntúa la afinación nota a nota.",
+      "en": "A singing trainer for Mac: play your song in Spotify or Apple Music and it scores your pitch note by note."
+    },
+    "note": {
+      "es": "Pones una canción en Spotify, Apple Music o YouTube y cantas encima: la primera vez te saca la letra y, al terminar, aprende la melodía del cantante. Para ello separa la voz principal de la música y sigue su afinación con modelos que corren en tu propio Mac. En las siguientes escuchas las notas van desfilando, tu voz se dibuja encima y al final te da una puntuación con informe línea a línea (cantar una octava más grave también cuenta). Es gratis, de código abierto (MIT) y pide un Mac con Apple Silicon. Un karaoke con profesor incluido.",
+      "en": "You play a song in Spotify, Apple Music or YouTube and sing along: the first time it shows you the lyrics and, when the song ends, it learns the singer's melody. To do that it separates the lead vocal from the music and tracks its pitch with models that run on your own Mac. On later plays the notes scroll towards you, your voice is drawn on top, and at the end you get a score with a line-by-line report (singing an octave down counts too). It's free, open source (MIT) and needs an Apple Silicon Mac. Karaoke with a teacher built in."
+    },
+    "image": "img/radar/onkey.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
   },
   {
     "date": "2026-10-11",
     "url": "https://onorca.dev/",
     "title": "Orca",
-    "summary": { "es": "Un IDE pensado para agentes: lanza una flota de Claude Code o Codex, cada uno en su worktree, y dirígelos desde un sitio.", "en": "An IDE built for agents: launch a fleet of Claude Code or Codex, each in its own worktree, and run them from one place." },
+    "summary": {
+      "es": "Un IDE pensado para agentes: lanza una flota de Claude Code o Codex, cada uno en su worktree, y dirígelos desde un sitio.",
+      "en": "An IDE built for agents: launch a fleet of Claude Code or Codex, each in its own worktree, and run them from one place."
+    },
     "note": {
       "es": "Un IDE pensado para agentes, no para personas: lanzas una flota de Claude Code, Codex o el agente que quieras, cada uno en su propio worktree, y los diriges desde un solo sitio. Terminales, diffs, navegador, automatizaciones... no le falta de nada. Un enfoque brillante de cómo se va a programar.",
       "en": "An IDE built for agents, not people: you launch a fleet of Claude Code, Codex or any agent you like, each in its own worktree, and run them all from one place. Terminals, diffs, a browser, automations... it has everything. A brilliant take on how coding is going to work."
     },
     "image": "img/radar/orca.png",
-    "stamps": [{ "es": "BRILLANTE", "en": "BRILLIANT" }, { "es": "COMPLETÍSIMO", "en": "LOADED" }],
-    "tags": ["tool"]
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      {
+        "es": "COMPLETÍSIMO",
+        "en": "LOADED"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
   },
   {
     "date": "2026-10-11",
     "url": "https://bigwords.page/",
     "title": "Big Words",
-    "summary": { "es": "Carteles a pantalla completa que viven enteros en el enlace: mensaje, colores y cuenta atrás, sin servidor ni app.", "en": "Full-screen signs that live entirely in the link: message, colours and countdown, with no server and no app." },
+    "summary": {
+      "es": "Carteles a pantalla completa que viven enteros en el enlace: mensaje, colores y cuenta atrás, sin servidor ni app.",
+      "en": "Full-screen signs that live entirely in the link: message, colours and countdown, with no server and no app."
+    },
     "note": {
       "es": "Un cartel a pantalla completa que vive entero en el enlace: el mensaje, los colores y hasta una cuenta atrás van en la URL. Sin cuenta, sin servidor, sin app. Una idea tan simple que da rabia no haberla tenido.",
       "en": "A full-screen sign that lives entirely in the link: the message, the colors and even a countdown go in the URL. No account, no server, no app. So simple it hurts not to have thought of it first."
     },
     "image": "img/radar/bigwords.png",
-    "stamps": ["ORIGINAL"],
-    "tags": ["tool", "idea"],
+    "stamps": [
+      "ORIGINAL"
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ],
     "try": {
-      "label": { "es": "Ver el lema de VaqCorp en grande →", "en": "See the VaqCorp motto, big →" },
+      "label": {
+        "es": "Ver el lema de VaqCorp en grande →",
+        "en": "See the VaqCorp motto, big →"
+      },
       "url": "https://bigwords.page/#Si%20no%20existe%2C%0Alo%20invento.&bg=c6ff3d&fg=111418&font=4"
     }
   },
@@ -63,16 +1671,30 @@
     "date": "2026-10-11",
     "url": "https://www.funwithcomputervision.com/weball/",
     "title": "Weball",
-    "summary": { "es": "Un juego que se sale de la pantalla: una bola que rueda por cualquier web y se la va tragando entera.", "en": "A game that breaks out of the screen: a ball that rolls over any website and swallows the whole thing up." },
+    "summary": {
+      "es": "Un juego que se sale de la pantalla: una bola que rueda por cualquier web y se la va tragando entera.",
+      "en": "A game that breaks out of the screen: a ball that rolls over any website and swallows the whole thing up."
+    },
     "note": {
       "es": "Un juego que se sale de la pantalla: una bola que rueda por cualquier web y se la va tragando. Me encanta cómo mezcla el juego con la realidad y lleva el efecto web a otro nivel.",
       "en": "A game that breaks out of the screen: a ball that rolls over any website and swallows it up. I love how it mixes the game with reality and takes the web effect to a new level."
     },
     "image": "img/radar/weball.png",
-    "stamps": [{ "es": "DIVERTIDO", "en": "FUN" }, "ORIGINAL"],
-    "tags": ["game"],
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "game"
+    ],
     "try": {
-      "label": { "es": "Rueda VaqCorp con Weball →", "en": "Roll up VaqCorp with Weball →" },
+      "label": {
+        "es": "Rueda VaqCorp con Weball →",
+        "en": "Roll up VaqCorp with Weball →"
+      },
       "url": "https://www.funwithcomputervision.com/weball/?url={vaqcorp}"
     }
   }
