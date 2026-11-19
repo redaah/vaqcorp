@@ -1613,6 +1613,7 @@
       "es": "Andrej Karpathy ha montado una interfaz al estilo YouTube con 6.454 vídeos recomendados en comentarios de Hacker News entre 2007 y 2026, repartidos en 150 temas y filtrados de unos 40.000 comentarios. Tiene una sección «ForYou» que funciona sin cuenta, guardando el estado en la sesión del navegador, y puedes descargarte los datos. Según cuenta, lo hizo en unas dos horas con Claude Code y ya está en marcha en hackertube.org. Una mina de vídeos buenos para perderse una tarde.",
       "en": "Andrej Karpathy built a YouTube-style interface over 6,454 videos recommended in Hacker News comments from 2007 to 2026, across 150 topics, narrowed down from about 40,000 comments. A no-account “ForYou” feature keeps its state in your browser session, and you can export the data. He says it took about two hours with Claude Code, and it's live at hackertube.org. A goldmine of great videos to get lost in for an afternoon."
     },
+    "image": "img/radar/hackertube.webp",
     "stamps": [
       {
         "es": "CURIOSO",
