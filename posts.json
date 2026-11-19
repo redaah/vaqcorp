@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-19",
+    "url": "https://github.com/mr-anjaneyam/Emittr",
+    "title": "Emittr",
+    "summary": {
+      "es": "Convierte un móvil Android rooteado en un teclado y ratón USB de verdad, que funciona hasta en la BIOS.",
+      "en": "Turns a rooted Android phone into a real USB keyboard and mouse that works even in the BIOS."
+    },
+    "note": {
+      "es": "Conectas un móvil Android rooteado por USB y el ordenador lo ve como un teclado y un ratón de verdad: usa el subsistema de gadgets USB del kernel de Linux, así que no hay que instalar nada en el equipo y funciona en máquinas bloqueadas, en la BIOS y en GRUB. El móvil abre una web en tu red local y lo manejas desde otro móvil, una tablet o un portátil. Según su autor, teclea scripts, claves SSH o contraseñas a unas 1000 palabras por minuto sin pasar por el portapapeles. Es de código abierto. Un truco de hardware sencillo y de lo más práctico.",
+      "en": "Plug a rooted Android phone in over USB and the computer sees a real keyboard and mouse: it uses the Linux kernel's USB gadget subsystem, so nothing gets installed on the machine and it works on locked-down computers, in the BIOS and in GRUB. The phone serves a web page on your local network, and you drive it from another phone, a tablet or a laptop. According to its author, it types scripts, SSH keys or passwords at around 1,000 words a minute without touching the clipboard. It's open source. A simple hardware trick that's genuinely handy."
+    },
+    "image": "img/radar/emittr.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
     "date": "2026-11-18",
     "url": "https://hackaday.com/2026/11/17/a-pen-plotter-to-draw-you-up-on-the-wall/",
     "title": "Mural 2.0",
