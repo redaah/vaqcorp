@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-11-19",
+    "url": "https://vercel.com/blog/introducing-vercel-board",
+    "title": "Vercel Board",
+    "summary": {
+      "es": "Un tablón de mensajes compartido para que flotas de agentes de programación se coordinen.",
+      "en": "A shared message board where fleets of coding agents coordinate their work."
+    },
+    "note": {
+      "es": "Vercel lo presenta como una «primitiva agéntica experimental»: un almacén de mensajes sin interfaz que los agentes leen y escriben con una CLI o un SDK de JavaScript para repartirse tareas y compartir contexto. Tiene permisos para personas y agentes y sincronización en los dos sentidos con herramientas como Slack. Funciona con cualquier entorno de agentes: nombran Claude Code, Codex, Pi, OpenCode, eve, Mastra y LangChain. Lo construyeron para su propio enjambre de agentes de seguridad y para la fábrica de software de v0, que según Vercel ya fusiona más del 50 % de los PR. Un tablón de corcho para robots.",
+      "en": "Vercel calls it an 'experimental agentic primitive': a headless message store that agents read and write through a CLI or a JavaScript SDK to split up tasks and share context. It has access grants for humans and agents and two-way sync with tools like Slack. It's harness-agnostic: Vercel names Claude Code, Codex, Pi, OpenCode, eve, Mastra and LangChain. They built it for their own security-agent swarm and for v0's software factory, which Vercel says now merges over 50% of PRs. A corkboard for robots."
+    },
+    "image": "img/radar/vercel-board.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "url": "https://exitpath-ruddy.vercel.app/",
+    "title": "ExitPath",
+    "summary": {
+      "es": "Una guía para cambiar Slack, Notion o Microsoft 365 por alternativas de código abierto.",
+      "en": "A guide to swapping Slack, Notion or Microsoft 365 for open-source alternatives."
+    },
+    "note": {
+      "es": "Presentada como Show HN, te ayuda a encontrar, comparar y pasarte a alternativas de código abierto, con valoraciones, una nota de dificultad de migración y listas de pasos. Su catálogo incluye Mattermost, Zulip, Element, Nextcloud, LibreOffice, Collabora, AppFlowy, Logseq, Immich, Forgejo y Jitsi, entre otros. La web dice que nada de lo que haces sale de tu navegador. No enlaza su propio código, así que su licencia está sin confirmar. Un mapa de salida para quien quiere dejar las grandes plataformas.",
+      "en": "Posted as a Show HN, it helps you find, compare and switch to open-source alternatives, with ratings, a migration-difficulty score and step-by-step checklists. Its catalog includes Mattermost, Zulip, Element, Nextcloud, LibreOffice, Collabora, AppFlowy, Logseq, Immich, Forgejo and Jitsi, among others. The site says nothing you do there leaves your browser. It doesn't link its own source, so its licence is unconfirmed. An exit map for anyone leaving the big platforms."
+    },
+    "image": "img/radar/exitpath.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+    "title": "MIT featherweight flyer",
+    "summary": {
+      "es": "Un robot de alas batientes más ligero que un clip que vuela con sus propios sensores y microcontrolador.",
+      "en": "A flapping-wing robot lighter than a paperclip that flies with its own sensors and microcontroller."
+    },
+    "note": {
+      "es": "El grupo de Kevin Chen en el MIT le ha añadido a su robot volador del tamaño de un insecto un paquete electrónico de 244 mg: unidad inercial, sensor de flujo óptico, sensor de altura por tiempo de vuelo y microcontrolador. Agrandaron un 50 % los músculos artificiales y la sustentación neta subió un 46 %. Se mantiene en el aire, sigue rutas de punto a punto con errores de pocos centímetros y hasta se posó en un girasol; la electrónica solo gasta un 6 % de la energía. Aún va atado a una fuente de energía externa: es un prototipo de laboratorio, publicado en Science Robotics. Un mosquito con cerebro propio.",
+      "en": "Kevin Chen's group at MIT gave its insect-scale flying robot a 244 mg electronics package: an IMU, an optical-flow sensor, a time-of-flight height sensor and a microcontroller. They made the artificial-muscle actuators 50% bigger, which raised net lift by 46%. It hovers, follows point-to-point paths with errors of a few centimetres and even landed on a sunflower; the electronics take about 6% of the power. It's still tethered to offboard power: a lab prototype, published in Science Robotics. A gnat with a brain of its own."
+    },
+    "image": "img/radar/mit-featherweight-flyer.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
     "date": "2026-11-18",
     "url": "https://hackaday.com/2026/11/17/a-pen-plotter-to-draw-you-up-on-the-wall/",
     "title": "Mural 2.0",
@@ -136,6 +213,57 @@
     }
   },
   {
+    "date": "2026-11-17",
+    "url": "https://www.kickstarter.com/projects/wordnutsreading/word-nuts-the-reading-practice-you-can-hold",
+    "title": "Word Nuts",
+    "summary": {
+      "es": "Práctica de lectura sin pantallas que se gira con las manos: bloques de letras para formar palabras.",
+      "en": "Screen-free reading practice you twist in your hands: letter blocks that turn into words."
+    },
+    "note": {
+      "es": "Word Nuts Reading, de Los Ángeles, lanzó en Kickstarter el 15 de noviembre (hasta el 7 de diciembre) un sistema físico, sin pantallas, para que los niños que empiezan a leer trabajen la conciencia de los sonidos y la decodificación. Ya ha superado su objetivo, pero sigue siendo una campaña, no un producto en tiendas. Aprender a leer girando tuercas.",
+      "en": "Word Nuts Reading, from Los Angeles, launched on Kickstarter on 15 November (running to 7 December) with a physical, screen-free system for early readers to build sound awareness and decoding skills. It has passed its goal, but it's still a campaign, not a retail product. Learning to read by twisting nuts."
+    },
+    "image": "img/radar/word-nuts.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      },
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "url": "https://techxplore.com/news/2026-11-illuminating-fibers-reveal-soft-robot.html",
+    "title": "Glowing robot fibers",
+    "summary": {
+      "es": "Fibras que brillan sin pilas y muestran dónde se dobla un robot blando.",
+      "en": "Battery-free fibers that glow to show where a soft robot is bending."
+    },
+    "note": {
+      "es": "Soon Moon Jeong y su equipo en el DGIST rellenaron tubos de silicona elástica con partículas luminiscentes de sulfuro de zinc en un polímero y tendieron las fibras como una malla sobre un robot blando: las partes que se deforman brillan en verde, sin energía ni electrónica. Las fibras se estiran a más del doble de su longitud y mantienen su brillo inicial tras más de 1.000 ciclos. Está en fase de laboratorio; el artículo sale en Small Structures. Un robot que se ilumina donde le duele.",
+      "en": "DGIST's Soon Moon Jeong and colleagues filled elastic silicone tubes with zinc-sulfide luminescent particles in a polymer, then laid the fibers as a mesh on a soft robot: the parts that deform glow green, with no power or electronics. The fibers stretch to more than twice their length and kept their initial light output after more than 1,000 stretch cycles. It's lab stage; the paper is in Small Structures. A robot that lights up where it flexes."
+    },
+    "image": "img/radar/glowing-robot-fibers.webp",
+    "stamps": [
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      },
+      "ORIGINAL"
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
     "date": "2026-11-16",
     "url": "https://interestingengineering.com/innovation/3d-printed-hoverboard-prototype",
     "title": "Halbach mini hoverboard",
@@ -270,6 +398,33 @@
       },
       "url": "https://ductus.sorenblank.com"
     }
+  },
+  {
+    "date": "2026-11-16",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+    "title": "LongCat-Video-Avatar 1.6",
+    "summary": {
+      "es": "Un modelo abierto de Meituan que convierte audio en vídeo de un avatar que habla, con licencia MIT.",
+      "en": "An open model from Meituan that turns audio into video of a talking avatar, MIT-licensed."
+    },
+    "note": {
+      "es": "El equipo LongCat de Meituan dice que la 1.6 mejora la sincronía entre labios y audio, la coordinación de cara y cuerpo y la coherencia visual frente a la 1.5, exagera menos los movimientos de la boca y apunta a vídeos de más de 10 minutos encadenando fragmentos. En un estudio de preferencia con 33.051 votos sacó 1068,1 de Elo, segundo de seis sistemas, solo por detrás de OmniHuman-2.0. Los pesos son MIT; los ejemplos usan 2 GPU y hay un checkpoint INT8 opcional. La ficha no da el número de parámetros. Un presentador virtual que puedes ejecutar tú.",
+      "en": "Meituan's LongCat team says 1.6 improves lip-audio sync, face and body coordination and visual consistency over 1.5, exaggerates mouth movement less, and targets videos over 10 minutes by continuing autoregressively. In a 33,051-vote human preference study it scored 1068.1 Elo, second of six systems behind OmniHuman-2.0. The weights are MIT; the examples use 2 GPUs, with an optional INT8 checkpoint. The card gives no parameter count. A virtual presenter you can run yourself."
+    },
+    "image": "img/radar/longcat-video-avatar-1-6.webp",
+    "stamps": [
+      {
+        "es": "CÓDIGO ABIERTO",
+        "en": "OPEN SOURCE"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
   },
   {
     "date": "2026-11-15",
@@ -1199,6 +1354,58 @@
     ]
   },
   {
+    "date": "2026-11-08",
+    "url": "https://blog.bosscher.ch/posts/openstick/",
+    "title": "OpenStick homelab",
+    "summary": {
+      "es": "Un pincho 4G de 10 dólares convertido en un servidor casero silencioso con Debian y 512 MB de RAM.",
+      "en": "A 10 USD 4G dongle turned into a silent Debian home server with 512 MB of RAM."
+    },
+    "note": {
+      "es": "Una entrada de blog (7 de noviembre) detalla un OpenStick de 10 dólares (4 núcleos Cortex-A53 a 1 GHz, unos 450 MB útiles de sus 512 MB de RAM, 4 GB de eMMC y módem 4G) con Debian, systemd y Podman. El autor enumera lo que tiene corriendo, como CastSponsorSkip (5-10 MB) y su propio fork de AdGuard Home (40 MB). La instalación se describe como algo complicada. Un servidor casero barato que cabe en un llavero.",
+      "en": "A blog post (7 November) details a 10 USD OpenStick (4x Cortex-A53 at 1 GHz, about 450 MB usable of its 512 MB RAM, 4 GB eMMC and a 4G modem) running Debian with systemd and Podman. The author lists the services he runs, including CastSponsorSkip (5-10 MB) and his own fork of AdGuard Home (40 MB). Installing is described as somewhat involved. A cheap home server that fits on a keyring."
+    },
+    "image": "img/radar/openstick-homelab.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool",
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "url": "https://newatlas.com/electronics/bifur-circuit-transforming-electronics/",
+    "title": "Bifur-circuits",
+    "summary": {
+      "es": "Módulos impresos en 3D que siguen conectados eléctricamente mientras cambian de forma.",
+      "en": "3D-printed modules that stay electrically connected while they change shape."
+    },
+    "note": {
+      "es": "Investigadores del MIT, la Universidad de Míchigan y la Universidad de Tokio, con Marwa AlAlawi como autora principal, crearon módulos auxéticos impresos en 3D que se pueden comprimir, estirar, girar o doblar sin perder las conexiones y sin cables externos. Entre los prototipos hay sillas que se convierten en mesas y un mando que lanza juegos distintos según la forma que le des. Electrónica que se transforma como un juguete.",
+      "en": "Researchers from MIT, the University of Michigan and the University of Tokyo, led by Marwa AlAlawi, built auxetic 3D-printed modules that can be compressed, stretched, rotated or bent while keeping their connections, with no external wires. Prototypes include chairs that turn into tables and a game controller that launches different games depending on its shape. Electronics that transform like a toy."
+    },
+    "image": "img/radar/bifur-circuits.webp",
+    "stamps": [
+      "ORIGINAL",
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
     "date": "2026-11-07",
     "url": "https://nfsu2.xyz/",
     "title": "NFSU2 in the browser",
@@ -1227,6 +1434,33 @@
       },
       "url": "https://nfsu2.xyz/"
     }
+  },
+  {
+    "date": "2026-11-07",
+    "url": "https://cactuscompute.com/blog/mirage",
+    "title": "Cactus Mirage",
+    "summary": {
+      "es": "Un modelo de visión y lenguaje de 22 MB para móviles y wearables que lo hace todo de una pasada.",
+      "en": "A 22 MB vision-language model for phones and wearables that does it all in one pass."
+    },
+    "note": {
+      "es": "Cactus dice que Mirage (51,3 millones de parámetros, unos 22 MB con su cuantización de 2 bits) describe escenas, detecta objetos, lee texto, segmenta, entiende relaciones espaciales y toma decisiones en una sola pasada. Según sus propias cifras tarda 74 ms en la NPU de un Galaxy S26 y 107 ms en CPU. Describe en siete idiomas. Los pesos y la configuración están en Hugging Face y el código en GitHub; la API de Python descarga motor y pesos la primera vez. La licencia está sin comprobar. Un ojo entero en menos que una foto.",
+      "en": "Cactus says Mirage (51.3M parameters, about 22 MB with its 2-bit quants) does scene description, detection, OCR, segmentation, spatial relations and decisions in one pass. By the vendor's own figures it takes 74 ms on a Galaxy S26 NPU and 107 ms on CPU. Descriptions cover seven languages. Weights and config are on Hugging Face and the source is on GitHub; the Python API downloads the engine and weights on first use. The licence is unchecked. A whole eye in less space than a photo."
+    },
+    "image": "img/radar/cactus-mirage.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "tool"
+    ]
   },
   {
     "date": "2026-11-06",
