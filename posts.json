@@ -1,5 +1,96 @@
 [
   {
+    "date": "2026-11-22",
+    "url": "https://printableracks.com/",
+    "title": "Printable Racks",
+    "summary": {
+      "es": "Diseña en el navegador un rack de 10 pulgadas imprimible en 3D y comprueba que tu equipo cabe.",
+      "en": "Design a 3D-printable 10-inch homelab rack in the browser and check your gear fits."
+    },
+    "note": {
+      "es": "Eliges uno de sus 17 armazones de 10 pulgadas (7 para imprimir y 10 para comprar), metes tu equipo desde un catálogo de más de 700 piezas (switches, mini PC, Raspberry Pi, baldas, regletas) y la herramienta avisa de lo que no cabe: carriles, unidades U, anchura y profundidad. Al final te da una lista de lo que hay que imprimir y lo que hay que comprar, con filamento y precios orientativos. Es gratis, no pide cuenta y guarda el rack en tu navegador. Hackaday, que lo publicó el 20 de noviembre, señala que solo comprueba el encaje físico: no tiene en cuenta cables ni ventilación. El Tetris del homelab, antes de gastar filamento.",
+      "en": "You pick one of its 17 10-inch frames (7 to print, 10 to buy), drop in gear from a catalogue of over 700 parts (switches, mini PCs, Raspberry Pis, shelves, power strips) and the tool flags whatever won't fit: rails, U slots, width and depth. You leave with a list of what to print and what to buy, with filament and typical prices. It's free, needs no account and saves your rack in the browser. Hackaday, which covered it on 20 November, notes it checks physical fit only, not cabling or airflow. Homelab Tetris, before you spend any filament."
+    },
+    "image": "img/radar/printable-racks.webp",
+    "stamps": [
+      {
+        "es": "ÚTIL",
+        "en": "USEFUL"
+      },
+      {
+        "es": "INGENIOSO",
+        "en": "CLEVER"
+      }
+    ],
+    "tags": [
+      "tool"
+    ],
+    "try": {
+      "label": {
+        "es": "Diseña tu rack →",
+        "en": "Design your rack →"
+      },
+      "url": "https://printableracks.com/"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "url": "https://hackaday.com/2026/11/21/lidar-glasses-for-the-visually-impaired/",
+    "title": "LiDAR haptic glasses",
+    "summary": {
+      "es": "Unas gafas con LiDAR que guían a quien las lleva haciendo vibrar una camiseta llena de motores.",
+      "en": "LiDAR glasses that guide the wearer by buzzing a shirt full of vibration motors."
+    },
+    "note": {
+      "es": "El aficionado DebackTech montó unas gafas con LiDAR que mandan la distancia y la dirección de lo que tienen delante a un ordenador, y este hace vibrar una matriz de motores cosidos a una camiseta. Con práctica, quien las lleva aprende a notar dónde están los obstáculos. En el vídeo pasea, monta en patinete eléctrico y juega a atrapar una pelota grande y lenta. Hackaday reconoce que el prototipo es «un poco aparatoso». Ver con la espalda.",
+      "en": "Hobbyist DebackTech built glasses with LiDAR that send the distance and direction of what's ahead to a computer, which buzzes an array of vibration motors sewn into a shirt. With practice, the wearer learns to feel where obstacles are. In the video he walks around, rides an electric scooter and plays catch with a large, slow ball. Hackaday admits the prototype is 'a little bit bulky'. Seeing with your back."
+    },
+    "image": "img/radar/lidar-haptic-glasses.webp",
+    "stamps": [
+      {
+        "es": "BRILLANTE",
+        "en": "BRILLIANT"
+      },
+      {
+        "es": "CURIOSO",
+        "en": "CURIOUS"
+      }
+    ],
+    "tags": [
+      "idea"
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "url": "https://shmoffee-studios.itch.io/pond-of-a-thousand-leaves",
+    "title": "Pond of a Thousand Leaves",
+    "summary": {
+      "es": "Un incremental tranquilo en el que limpias un estanque de otoño hoja a hoja.",
+      "en": "A calm incremental game about clearing an autumn pond leaf by leaf."
+    },
+    "note": {
+      "es": "Empiezas recogiendo hojas a mano y vendiendo cada una por un céntimo en un puesto. Con lo que ganas compras guantes, pinzas, un rastrillo y redes, hasta que el goteo se convierte en avalancha. Se juega gratis en el navegador (HTML5) y es de Shmoffee Studios, que lo publicó en itch.io el 21 de noviembre. Otoño relajante, una hoja cada vez.",
+      "en": "You start by picking up leaves by hand and selling each one for a cent at a stall. The money buys gloves, tongs, a rake and nets until the trickle becomes a flood. It's free to play in the browser (HTML5), by Shmoffee Studios, who published it on itch.io on 21 November. Relaxing autumn, one leaf at a time."
+    },
+    "image": "img/radar/pond-of-a-thousand-leaves.webp",
+    "stamps": [
+      {
+        "es": "DIVERTIDO",
+        "en": "FUN"
+      }
+    ],
+    "tags": [
+      "game"
+    ],
+    "try": {
+      "label": {
+        "es": "Juega →",
+        "en": "Play →"
+      },
+      "url": "https://shmoffee-studios.itch.io/pond-of-a-thousand-leaves"
+    }
+  },
+  {
     "date": "2026-11-19",
     "url": "https://vercel.com/blog/introducing-vercel-board",
     "title": "Vercel Board",
